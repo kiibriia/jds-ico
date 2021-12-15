@@ -1,0 +1,2455 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?xmre9u');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?xmre9u#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?xmre9u') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?xmre9u') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?xmre9u##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jdsi-heart {
+  &:before {
+    content: $jdsi-heart; 
+  }
+}
+.jdsi-pin {
+  &:before {
+    content: $jdsi-pin; 
+  }
+}
+.jdsi-user {
+  &:before {
+    content: $jdsi-user; 
+  }
+}
+.jdsi-woman {
+  &:before {
+    content: $jdsi-woman; 
+  }
+}
+.jdsi-participants {
+  &:before {
+    content: $jdsi-participants; 
+  }
+}
+.jdsi-community {
+  &:before {
+    content: $jdsi-community; 
+  }
+}
+.jdsi-team {
+  &:before {
+    content: $jdsi-team; 
+  }
+}
+.jdsi-security-user {
+  &:before {
+    content: $jdsi-security-user; 
+  }
+}
+.jdsi-contacts {
+  &:before {
+    content: $jdsi-contacts; 
+  }
+}
+.jdsi-happy {
+  &:before {
+    content: $jdsi-happy; 
+  }
+}
+.jdsi-sad {
+  &:before {
+    content: $jdsi-sad; 
+  }
+}
+.jdsi-confused {
+  &:before {
+    content: $jdsi-confused; 
+  }
+}
+.jdsi-account {
+  &:before {
+    content: $jdsi-account; 
+  }
+}
+.jdsi-small-home {
+  &:before {
+    content: $jdsi-small-home; 
+  }
+}
+.jdsi-female {
+  &:before {
+    content: $jdsi-female; 
+  }
+}
+.jdsi-male {
+  &:before {
+    content: $jdsi-male; 
+  }
+}
+.jdsi-alarm-warning {
+  &:before {
+    content: $jdsi-alarm-warning; 
+  }
+}
+.jdsi-align-center {
+  &:before {
+    content: $jdsi-align-center; 
+  }
+}
+.jdsi-align-justify {
+  &:before {
+    content: $jdsi-align-justify; 
+  }
+}
+.jdsi-align-left {
+  &:before {
+    content: $jdsi-align-left; 
+  }
+}
+.jdsi-align-right {
+  &:before {
+    content: $jdsi-align-right; 
+  }
+}
+.jdsi-arrow-back {
+  &:before {
+    content: $jdsi-arrow-back; 
+  }
+}
+.jdsi-arrow-begin {
+  &:before {
+    content: $jdsi-arrow-begin; 
+  }
+}
+.jdsi-arrow-down {
+  &:before {
+    content: $jdsi-arrow-down; 
+  }
+}
+.jdsi-arrow-end {
+  &:before {
+    content: $jdsi-arrow-end; 
+  }
+}
+.jdsi-arrow-first {
+  &:before {
+    content: $jdsi-arrow-first; 
+  }
+}
+.jdsi-arrow-last {
+  &:before {
+    content: $jdsi-arrow-last; 
+  }
+}
+.jdsi-arrow-left {
+  &:before {
+    content: $jdsi-arrow-left; 
+  }
+}
+.jdsi-arrow-left-double {
+  &:before {
+    content: $jdsi-arrow-left-double; 
+  }
+}
+.jdsi-arrow-left-long {
+  &:before {
+    content: $jdsi-arrow-left-long; 
+  }
+}
+.jdsi-arrow-right {
+  &:before {
+    content: $jdsi-arrow-right; 
+  }
+}
+.jdsi-arrow-right-double {
+  &:before {
+    content: $jdsi-arrow-right-double; 
+  }
+}
+.jdsi-arrow-right-long {
+  &:before {
+    content: $jdsi-arrow-right-long; 
+  }
+}
+.jdsi-arrow-right-top {
+  &:before {
+    content: $jdsi-arrow-right-top; 
+  }
+}
+.jdsi-arrow-up {
+  &:before {
+    content: $jdsi-arrow-up; 
+  }
+}
+.jdsi-article {
+  &:before {
+    content: $jdsi-article; 
+  }
+}
+.jdsi-at {
+  &:before {
+    content: $jdsi-at; 
+  }
+}
+.jdsi-attachment {
+  &:before {
+    content: $jdsi-attachment; 
+  }
+}
+.jdsi-award {
+  &:before {
+    content: $jdsi-award; 
+  }
+}
+.jdsi-bank-card {
+  &:before {
+    content: $jdsi-bank-card; 
+  }
+}
+.jdsi-bar-chart {
+  &:before {
+    content: $jdsi-bar-chart; 
+  }
+}
+.jdsi-blueprint {
+  &:before {
+    content: $jdsi-blueprint; 
+  }
+}
+.jdsi-bolt {
+  &:before {
+    content: $jdsi-bolt; 
+  }
+}
+.jdsi-book {
+  &:before {
+    content: $jdsi-book; 
+  }
+}
+.jdsi-bookmark {
+  &:before {
+    content: $jdsi-bookmark; 
+  }
+}
+.jdsi-bookmark-minus {
+  &:before {
+    content: $jdsi-bookmark-minus; 
+  }
+}
+.jdsi-bookmark-star {
+  &:before {
+    content: $jdsi-bookmark-star; 
+  }
+}
+.jdsi-book-open {
+  &:before {
+    content: $jdsi-book-open; 
+  }
+}
+.jdsi-briefcase {
+  &:before {
+    content: $jdsi-briefcase; 
+  }
+}
+.jdsi-brush {
+  &:before {
+    content: $jdsi-brush; 
+  }
+}
+.jdsi-bug {
+  &:before {
+    content: $jdsi-bug; 
+  }
+}
+.jdsi-building {
+  &:before {
+    content: $jdsi-building; 
+  }
+}
+.jdsi-calculate {
+  &:before {
+    content: $jdsi-calculate; 
+  }
+}
+.jdsi-calendar {
+  &:before {
+    content: $jdsi-calendar; 
+  }
+}
+.jdsi-chart-customize {
+  &:before {
+    content: $jdsi-chart-customize; 
+  }
+}
+.jdsi-chat {
+  &:before {
+    content: $jdsi-chat; 
+  }
+}
+.jdsi-clipboard {
+  &:before {
+    content: $jdsi-clipboard; 
+  }
+}
+.jdsi-clock {
+  &:before {
+    content: $jdsi-clock; 
+  }
+}
+.jdsi-clock-alram {
+  &:before {
+    content: $jdsi-clock-alram; 
+  }
+}
+.jdsi-close {
+  &:before {
+    content: $jdsi-close; 
+  }
+}
+.jdsi-cloud {
+  &:before {
+    content: $jdsi-cloud; 
+  }
+}
+.jdsi-cloud-check {
+  &:before {
+    content: $jdsi-cloud-check; 
+  }
+}
+.jdsi-cloud-close {
+  &:before {
+    content: $jdsi-cloud-close; 
+  }
+}
+.jdsi-cloud-crack {
+  &:before {
+    content: $jdsi-cloud-crack; 
+  }
+}
+.jdsi-cloud-down {
+  &:before {
+    content: $jdsi-cloud-down; 
+  }
+}
+.jdsi-cloud-off {
+  &:before {
+    content: $jdsi-cloud-off; 
+  }
+}
+.jdsi-cloud-up {
+  &:before {
+    content: $jdsi-cloud-up; 
+  }
+}
+.jdsi-code {
+  &:before {
+    content: $jdsi-code; 
+  }
+}
+.jdsi-collapse-around {
+  &:before {
+    content: $jdsi-collapse-around; 
+  }
+}
+.jdsi-community-building {
+  &:before {
+    content: $jdsi-community-building; 
+  }
+}
+.jdsi-company {
+  &:before {
+    content: $jdsi-company; 
+  }
+}
+.jdsi-compass {
+  &:before {
+    content: $jdsi-compass; 
+  }
+}
+.jdsi-configuration {
+  &:before {
+    content: $jdsi-configuration; 
+  }
+}
+.jdsi-toogle {
+  &:before {
+    content: $jdsi-toogle; 
+  }
+}
+.jdsi-copy {
+  &:before {
+    content: $jdsi-copy; 
+  }
+}
+.jdsi-countdown {
+  &:before {
+    content: $jdsi-countdown; 
+  }
+}
+.jdsi-cross-box {
+  &:before {
+    content: $jdsi-cross-box; 
+  }
+}
+.jdsi-cross-circle {
+  &:before {
+    content: $jdsi-cross-circle; 
+  }
+}
+.jdsi-cross-open {
+  &:before {
+    content: $jdsi-cross-open; 
+  }
+}
+.jdsi-crown {
+  &:before {
+    content: $jdsi-crown; 
+  }
+}
+.jdsi-cup {
+  &:before {
+    content: $jdsi-cup; 
+  }
+}
+.jdsi-currency-boxes {
+  &:before {
+    content: $jdsi-currency-boxes; 
+  }
+}
+.jdsi-delete {
+  &:before {
+    content: $jdsi-delete; 
+  }
+}
+.jdsi-devices {
+  &:before {
+    content: $jdsi-devices; 
+  }
+}
+.jdsi-diamond {
+  &:before {
+    content: $jdsi-diamond; 
+  }
+}
+.jdsi-documant {
+  &:before {
+    content: $jdsi-documant; 
+  }
+}
+.jdsi-door-lock {
+  &:before {
+    content: $jdsi-door-lock; 
+  }
+}
+.jdsi-double-quotes-left {
+  &:before {
+    content: $jdsi-double-quotes-left; 
+  }
+}
+.jdsi-double-quotes-right {
+  &:before {
+    content: $jdsi-double-quotes-right; 
+  }
+}
+.jdsi-download {
+  &:before {
+    content: $jdsi-download; 
+  }
+}
+.jdsi-earth {
+  &:before {
+    content: $jdsi-earth; 
+  }
+}
+.jdsi-edit {
+  &:before {
+    content: $jdsi-edit; 
+  }
+}
+.jdsi-error {
+  &:before {
+    content: $jdsi-error; 
+  }
+}
+.jdsi-error-open {
+  &:before {
+    content: $jdsi-error-open; 
+  }
+}
+.jdsi-excel {
+  &:before {
+    content: $jdsi-excel; 
+  }
+}
+.jdsi-excel-files {
+  &:before {
+    content: $jdsi-excel-files; 
+  }
+}
+.jdsi-exchange-box {
+  &:before {
+    content: $jdsi-exchange-box; 
+  }
+}
+.jdsi-expand-around {
+  &:before {
+    content: $jdsi-expand-around; 
+  }
+}
+.jdsi-eye {
+  &:before {
+    content: $jdsi-eye; 
+  }
+}
+.jdsi-eye-off {
+  &:before {
+    content: $jdsi-eye-off; 
+  }
+}
+.jdsi-face-mask {
+  &:before {
+    content: $jdsi-face-mask; 
+  }
+}
+.jdsi-fax {
+  &:before {
+    content: $jdsi-fax; 
+  }
+}
+.jdsi-file {
+  &:before {
+    content: $jdsi-file; 
+  }
+}
+.jdsi-file-pdf {
+  &:before {
+    content: $jdsi-file-pdf; 
+  }
+}
+.jdsi-file-shred {
+  &:before {
+    content: $jdsi-file-shred; 
+  }
+}
+.jdsi-files-unknow {
+  &:before {
+    content: $jdsi-files-unknow; 
+  }
+}
+.jdsi-file-unknow {
+  &:before {
+    content: $jdsi-file-unknow; 
+  }
+}
+.jdsi-filter {
+  &:before {
+    content: $jdsi-filter; 
+  }
+}
+.jdsi-filtering {
+  &:before {
+    content: $jdsi-filtering; 
+  }
+}
+.jdsi-fire {
+  &:before {
+    content: $jdsi-fire; 
+  }
+}
+.jdsi-flag {
+  &:before {
+    content: $jdsi-flag; 
+  }
+}
+.jdsi-flag-wind {
+  &:before {
+    content: $jdsi-flag-wind; 
+  }
+}
+.jdsi-focus {
+  &:before {
+    content: $jdsi-focus; 
+  }
+}
+.jdsi-folder {
+  &:before {
+    content: $jdsi-folder; 
+  }
+}
+.jdsi-folder-open {
+  &:before {
+    content: $jdsi-folder-open; 
+  }
+}
+.jdsi-folders {
+  &:before {
+    content: $jdsi-folders; 
+  }
+}
+.jdsi-fold-paper {
+  &:before {
+    content: $jdsi-fold-paper; 
+  }
+}
+.jdsi-forward {
+  &:before {
+    content: $jdsi-forward; 
+  }
+}
+.jdsi-function {
+  &:before {
+    content: $jdsi-function; 
+  }
+}
+.jdsi-globe {
+  &:before {
+    content: $jdsi-globe; 
+  }
+}
+.jdsi-graph-chart {
+  &:before {
+    content: $jdsi-graph-chart; 
+  }
+}
+.jdsi-grid {
+  &:before {
+    content: $jdsi-grid; 
+  }
+}
+.jdsi-hamburger {
+  &:before {
+    content: $jdsi-hamburger; 
+  }
+}
+.jdsi-help-box {
+  &:before {
+    content: $jdsi-help-box; 
+  }
+}
+.jdsi-help-cercle {
+  &:before {
+    content: $jdsi-help-cercle; 
+  }
+}
+.jdsi-help-open {
+  &:before {
+    content: $jdsi-help-open; 
+  }
+}
+.jdsi-honour {
+  &:before {
+    content: $jdsi-honour; 
+  }
+}
+.jdsi-image {
+  &:before {
+    content: $jdsi-image; 
+  }
+}
+.jdsi-image-place {
+  &:before {
+    content: $jdsi-image-place; 
+  }
+}
+.jdsi-industry {
+  &:before {
+    content: $jdsi-industry; 
+  }
+}
+.jdsi-laptop {
+  &:before {
+    content: $jdsi-laptop; 
+  }
+}
+.jdsi-lifebuoy {
+  &:before {
+    content: $jdsi-lifebuoy; 
+  }
+}
+.jdsi-light {
+  &:before {
+    content: $jdsi-light; 
+  }
+}
+.jdsi-light-flash {
+  &:before {
+    content: $jdsi-light-flash; 
+  }
+}
+.jdsi-link {
+  &:before {
+    content: $jdsi-link; 
+  }
+}
+.jdsi-list {
+  &:before {
+    content: $jdsi-list; 
+  }
+}
+.jdsi-loading {
+  &:before {
+    content: $jdsi-loading; 
+  }
+}
+.jdsi-login-box {
+  &:before {
+    content: $jdsi-login-box; 
+  }
+}
+.jdsi-login-circle {
+  &:before {
+    content: $jdsi-login-circle; 
+  }
+}
+.jdsi-logout-box {
+  &:before {
+    content: $jdsi-logout-box; 
+  }
+}
+.jdsi-logout-circle {
+  &:before {
+    content: $jdsi-logout-circle; 
+  }
+}
+.jdsi-magic {
+  &:before {
+    content: $jdsi-magic; 
+  }
+}
+.jdsi-mail {
+  &:before {
+    content: $jdsi-mail; 
+  }
+}
+.jdsi-mail-add {
+  &:before {
+    content: $jdsi-mail-add; 
+  }
+}
+.jdsi-mail-check {
+  &:before {
+    content: $jdsi-mail-check; 
+  }
+}
+.jdsi-mail-close {
+  &:before {
+    content: $jdsi-mail-close; 
+  }
+}
+.jdsi-mail-download {
+  &:before {
+    content: $jdsi-mail-download; 
+  }
+}
+.jdsi-mail-forbid {
+  &:before {
+    content: $jdsi-mail-forbid; 
+  }
+}
+.jdsi-mail-inbox {
+  &:before {
+    content: $jdsi-mail-inbox; 
+  }
+}
+.jdsi-mail-lock {
+  &:before {
+    content: $jdsi-mail-lock; 
+  }
+}
+.jdsi-mail-open {
+  &:before {
+    content: $jdsi-mail-open; 
+  }
+}
+.jdsi-mail-search {
+  &:before {
+    content: $jdsi-mail-search; 
+  }
+}
+.jdsi-mail-send {
+  &:before {
+    content: $jdsi-mail-send; 
+  }
+}
+.jdsi-mail-settings {
+  &:before {
+    content: $jdsi-mail-settings; 
+  }
+}
+.jdsi-mail-star {
+  &:before {
+    content: $jdsi-mail-star; 
+  }
+}
+.jdsi-mail-unread {
+  &:before {
+    content: $jdsi-mail-unread; 
+  }
+}
+.jdsi-manage {
+  &:before {
+    content: $jdsi-manage; 
+  }
+}
+.jdsi-map-pin {
+  &:before {
+    content: $jdsi-map-pin; 
+  }
+}
+.jdsi-map-pin-land {
+  &:before {
+    content: $jdsi-map-pin-land; 
+  }
+}
+.jdsi-message {
+  &:before {
+    content: $jdsi-message; 
+  }
+}
+.jdsi-mic {
+  &:before {
+    content: $jdsi-mic; 
+  }
+}
+.jdsi-mic-off {
+  &:before {
+    content: $jdsi-mic-off; 
+  }
+}
+.jdsi-money-box {
+  &:before {
+    content: $jdsi-money-box; 
+  }
+}
+.jdsi-money-circle {
+  &:before {
+    content: $jdsi-money-circle; 
+  }
+}
+.jdsi-monitor {
+  &:before {
+    content: $jdsi-monitor; 
+  }
+}
+.jdsi-moon {
+  &:before {
+    content: $jdsi-moon; 
+  }
+}
+.jdsi-more-h {
+  &:before {
+    content: $jdsi-more-h; 
+  }
+}
+.jdsi-more-v {
+  &:before {
+    content: $jdsi-more-v; 
+  }
+}
+.jdsi-mouse {
+  &:before {
+    content: $jdsi-mouse; 
+  }
+}
+.jdsi-newspaper {
+  &:before {
+    content: $jdsi-newspaper; 
+  }
+}
+.jdsi-notification {
+  &:before {
+    content: $jdsi-notification; 
+  }
+}
+.jdsi-palette {
+  &:before {
+    content: $jdsi-palette; 
+  }
+}
+.jdsi-pdf {
+  &:before {
+    content: $jdsi-pdf; 
+  }
+}
+.jdsi-phone {
+  &:before {
+    content: $jdsi-phone; 
+  }
+}
+.jdsi-pie-chart {
+  &:before {
+    content: $jdsi-pie-chart; 
+  }
+}
+.jdsi-plant {
+  &:before {
+    content: $jdsi-plant; 
+  }
+}
+.jdsi-plus {
+  &:before {
+    content: $jdsi-plus; 
+  }
+}
+.jdsi-Printer {
+  &:before {
+    content: $jdsi-Printer; 
+  }
+}
+.jdsi-question-answer {
+  &:before {
+    content: $jdsi-question-answer; 
+  }
+}
+.jdsi-quill-pen {
+  &:before {
+    content: $jdsi-quill-pen; 
+  }
+}
+.jdsi-radar {
+  &:before {
+    content: $jdsi-radar; 
+  }
+}
+.jdsi-record {
+  &:before {
+    content: $jdsi-record; 
+  }
+}
+.jdsi-refrash {
+  &:before {
+    content: $jdsi-refrash; 
+  }
+}
+.jdsi-refresh {
+  &:before {
+    content: $jdsi-refresh; 
+  }
+}
+.jdsi-reload {
+  &:before {
+    content: $jdsi-reload; 
+  }
+}
+.jdsi-reply {
+  &:before {
+    content: $jdsi-reply; 
+  }
+}
+.jdsi-reply-all {
+  &:before {
+    content: $jdsi-reply-all; 
+  }
+}
+.jdsi-right {
+  &:before {
+    content: $jdsi-right; 
+  }
+}
+.jdsi-right-box {
+  &:before {
+    content: $jdsi-right-box; 
+  }
+}
+.jdsi-right-circle {
+  &:before {
+    content: $jdsi-right-circle; 
+  }
+}
+.jdsi-right-double {
+  &:before {
+    content: $jdsi-right-double; 
+  }
+}
+.jdsi-right-open {
+  &:before {
+    content: $jdsi-right-open; 
+  }
+}
+.jdsi-rocket {
+  &:before {
+    content: $jdsi-rocket; 
+  }
+}
+.jdsi-safe {
+  &:before {
+    content: $jdsi-safe; 
+  }
+}
+.jdsi-safe-vault {
+  &:before {
+    content: $jdsi-safe-vault; 
+  }
+}
+.jdsi-save {
+  &:before {
+    content: $jdsi-save; 
+  }
+}
+.jdsi-search {
+  &:before {
+    content: $jdsi-search; 
+  }
+}
+.jdsi-secured {
+  &:before {
+    content: $jdsi-secured; 
+  }
+}
+.jdsi-send {
+  &:before {
+    content: $jdsi-send; 
+  }
+}
+.jdsi-sensor {
+  &:before {
+    content: $jdsi-sensor; 
+  }
+}
+.jdsi-server {
+  &:before {
+    content: $jdsi-server; 
+  }
+}
+.jdsi-settings {
+  &:before {
+    content: $jdsi-settings; 
+  }
+}
+.jdsi-share-forward {
+  &:before {
+    content: $jdsi-share-forward; 
+  }
+}
+.jdsi-single-quotes-left {
+  &:before {
+    content: $jdsi-single-quotes-left; 
+  }
+}
+.jdsi-single-quotes-right {
+  &:before {
+    content: $jdsi-single-quotes-right; 
+  }
+}
+.jdsi-smartphone {
+  &:before {
+    content: $jdsi-smartphone; 
+  }
+}
+.jdsi-stack {
+  &:before {
+    content: $jdsi-stack; 
+  }
+}
+.jdsi-star {
+  &:before {
+    content: $jdsi-star; 
+  }
+}
+.jdsi-sun {
+  &:before {
+    content: $jdsi-sun; 
+  }
+}
+.jdsi-swap {
+  &:before {
+    content: $jdsi-swap; 
+  }
+}
+.jdsi-measurement {
+  &:before {
+    content: $jdsi-measurement; 
+  }
+}
+.jdsi-percent {
+  &:before {
+    content: $jdsi-percent; 
+  }
+}
+.jdsi-global-net {
+  &:before {
+    content: $jdsi-global-net; 
+  }
+}
+.jdsi-share {
+  &:before {
+    content: $jdsi-share; 
+  }
+}
+.jdsi-cut {
+  &:before {
+    content: $jdsi-cut; 
+  }
+}
+.jdsi-barricade {
+  &:before {
+    content: $jdsi-barricade; 
+  }
+}
+.jdsi-tablet {
+  &:before {
+    content: $jdsi-tablet; 
+  }
+}
+.jdsi-thumb-down {
+  &:before {
+    content: $jdsi-thumb-down; 
+  }
+}
+.jdsi-thumb-up {
+  &:before {
+    content: $jdsi-thumb-up; 
+  }
+}
+.jdsi-todo {
+  &:before {
+    content: $jdsi-todo; 
+  }
+}
+.jdsi-trophy {
+  &:before {
+    content: $jdsi-trophy; 
+  }
+}
+.jdsi-umbrella {
+  &:before {
+    content: $jdsi-umbrella; 
+  }
+}
+.jdsi-upload {
+  &:before {
+    content: $jdsi-upload; 
+  }
+}
+.jdsi-vidicon {
+  &:before {
+    content: $jdsi-vidicon; 
+  }
+}
+.jdsi-volume-down {
+  &:before {
+    content: $jdsi-volume-down; 
+  }
+}
+.jdsi-volume-mute {
+  &:before {
+    content: $jdsi-volume-mute; 
+  }
+}
+.jdsi-volume-up {
+  &:before {
+    content: $jdsi-volume-up; 
+  }
+}
+.jdsi-wallet {
+  &:before {
+    content: $jdsi-wallet; 
+  }
+}
+.jdsi-webcam {
+  &:before {
+    content: $jdsi-webcam; 
+  }
+}
+.jdsi-window {
+  &:before {
+    content: $jdsi-window; 
+  }
+}
+.jdsi-word {
+  &:before {
+    content: $jdsi-word; 
+  }
+}
+.jdsi-word-files {
+  &:before {
+    content: $jdsi-word-files; 
+  }
+}
+.jdsi-zoom-in {
+  &:before {
+    content: $jdsi-zoom-in; 
+  }
+}
+.jdsi-zoom-out {
+  &:before {
+    content: $jdsi-zoom-out; 
+  }
+}
+.jdsi-logo-unify {
+  &:before {
+    content: $jdsi-logo-unify; 
+  }
+}
+.jdsi-logo-july {
+  &:before {
+    content: $jdsi-logo-july; 
+  }
+}
+.jdsi-owl {
+  &:before {
+    content: $jdsi-owl; 
+  }
+}
+.jdsi-number0 {
+  &:before {
+    content: $jdsi-number0; 
+  }
+}
+.jdsi-number1 {
+  &:before {
+    content: $jdsi-number1; 
+  }
+}
+.jdsi-number2 {
+  &:before {
+    content: $jdsi-number2; 
+  }
+}
+.jdsi-number3 {
+  &:before {
+    content: $jdsi-number3; 
+  }
+}
+.jdsi-number4 {
+  &:before {
+    content: $jdsi-number4; 
+  }
+}
+.jdsi-number5 {
+  &:before {
+    content: $jdsi-number5; 
+  }
+}
+.jdsi-number6 {
+  &:before {
+    content: $jdsi-number6; 
+  }
+}
+.jdsi-number7 {
+  &:before {
+    content: $jdsi-number7; 
+  }
+}
+.jdsi-number8 {
+  &:before {
+    content: $jdsi-number8; 
+  }
+}
+.jdsi-number9 {
+  &:before {
+    content: $jdsi-number9; 
+  }
+}
+.jdsi-handshak-outline {
+  &:before {
+    content: $jdsi-handshak-outline; 
+  }
+}
+.jdsi-age-outline {
+  &:before {
+    content: $jdsi-age-outline; 
+  }
+}
+.jdsi-enroll-outline {
+  &:before {
+    content: $jdsi-enroll-outline; 
+  }
+}
+.jdsi-finger-tap-outline {
+  &:before {
+    content: $jdsi-finger-tap-outline; 
+  }
+}
+.jdsi-hand-pen-outline {
+  &:before {
+    content: $jdsi-hand-pen-outline; 
+  }
+}
+.jdsi-knowledgebase-outline {
+  &:before {
+    content: $jdsi-knowledgebase-outline; 
+  }
+}
+.jdsi-meter-gauge-outline {
+  &:before {
+    content: $jdsi-meter-gauge-outline; 
+  }
+}
+.jdsi-pen-outline {
+  &:before {
+    content: $jdsi-pen-outline; 
+  }
+}
+.jdsi-quick-enroll-outline {
+  &:before {
+    content: $jdsi-quick-enroll-outline; 
+  }
+}
+.jdsi-talking-outline {
+  &:before {
+    content: $jdsi-talking-outline; 
+  }
+}
+.jdsi-target-outline {
+  &:before {
+    content: $jdsi-target-outline; 
+  }
+}
+.jdsi-team-outline {
+  &:before {
+    content: $jdsi-team-outline; 
+  }
+}
+.jdsi-tablet-solid {
+  &:before {
+    content: $jdsi-tablet-solid; 
+  }
+}
+.jdsi-help-box-solid {
+  &:before {
+    content: $jdsi-help-box-solid; 
+  }
+}
+.jdsi-bar-chart-solid {
+  &:before {
+    content: $jdsi-bar-chart-solid; 
+  }
+}
+.jdsi-barricade-solid {
+  &:before {
+    content: $jdsi-barricade-solid; 
+  }
+}
+.jdsi-bolt-solid {
+  &:before {
+    content: $jdsi-bolt-solid; 
+  }
+}
+.jdsi-bookmark-minus-solid {
+  &:before {
+    content: $jdsi-bookmark-minus-solid; 
+  }
+}
+.jdsi-bookmark-solid {
+  &:before {
+    content: $jdsi-bookmark-solid; 
+  }
+}
+.jdsi-bookmark-star-solid {
+  &:before {
+    content: $jdsi-bookmark-star-solid; 
+  }
+}
+.jdsi-book-open-solid {
+  &:before {
+    content: $jdsi-book-open-solid; 
+  }
+}
+.jdsi-briefcase-solid {
+  &:before {
+    content: $jdsi-briefcase-solid; 
+  }
+}
+.jdsi-bug-solid {
+  &:before {
+    content: $jdsi-bug-solid; 
+  }
+}
+.jdsi-building-solid {
+  &:before {
+    content: $jdsi-building-solid; 
+  }
+}
+.jdsi-calculate-solid {
+  &:before {
+    content: $jdsi-calculate-solid; 
+  }
+}
+.jdsi-calendar-solid {
+  &:before {
+    content: $jdsi-calendar-solid; 
+  }
+}
+.jdsi-heart-solid {
+  &:before {
+    content: $jdsi-heart-solid; 
+  }
+}
+.jdsi-owl-solid {
+  &:before {
+    content: $jdsi-owl-solid; 
+  }
+}
+.jdsi-user-solid {
+  &:before {
+    content: $jdsi-user-solid; 
+  }
+}
+.jdsi-woman-solid {
+  &:before {
+    content: $jdsi-woman-solid; 
+  }
+}
+.jdsi-community-solid {
+  &:before {
+    content: $jdsi-community-solid; 
+  }
+}
+.jdsi-team-solid {
+  &:before {
+    content: $jdsi-team-solid; 
+  }
+}
+.jdsi-participants-solid {
+  &:before {
+    content: $jdsi-participants-solid; 
+  }
+}
+.jdsi-contacts-solid {
+  &:before {
+    content: $jdsi-contacts-solid; 
+  }
+}
+.jdsi-small-home-solid {
+  &:before {
+    content: $jdsi-small-home-solid; 
+  }
+}
+.jdsi-security-user-solid {
+  &:before {
+    content: $jdsi-security-user-solid; 
+  }
+}
+.jdsi-happy-solid {
+  &:before {
+    content: $jdsi-happy-solid; 
+  }
+}
+.jdsi-confused-solid {
+  &:before {
+    content: $jdsi-confused-solid; 
+  }
+}
+.jdsi-sad-solid {
+  &:before {
+    content: $jdsi-sad-solid; 
+  }
+}
+.jdsi-account-solid {
+  &:before {
+    content: $jdsi-account-solid; 
+  }
+}
+.jdsi-male-solid {
+  &:before {
+    content: $jdsi-male-solid; 
+  }
+}
+.jdsi-female-solid {
+  &:before {
+    content: $jdsi-female-solid; 
+  }
+}
+.jdsi-file-solid {
+  &:before {
+    content: $jdsi-file-solid; 
+  }
+}
+.jdsi-documant-solid {
+  &:before {
+    content: $jdsi-documant-solid; 
+  }
+}
+.jdsi-book-solid {
+  &:before {
+    content: $jdsi-book-solid; 
+  }
+}
+.jdsi-fold-paper-solid {
+  &:before {
+    content: $jdsi-fold-paper-solid; 
+  }
+}
+.jdsi-blueprint-solid {
+  &:before {
+    content: $jdsi-blueprint-solid; 
+  }
+}
+.jdsi-article-solid {
+  &:before {
+    content: $jdsi-article-solid; 
+  }
+}
+.jdsi-list-solid {
+  &:before {
+    content: $jdsi-list-solid; 
+  }
+}
+.jdsi-newspaper-solid {
+  &:before {
+    content: $jdsi-newspaper-solid; 
+  }
+}
+.jdsi-excel-files-solid {
+  &:before {
+    content: $jdsi-excel-files-solid; 
+  }
+}
+.jdsi-excel-solid {
+  &:before {
+    content: $jdsi-excel-solid; 
+  }
+}
+.jdsi-word-files-solid {
+  &:before {
+    content: $jdsi-word-files-solid; 
+  }
+}
+.jdsi-word-solid {
+  &:before {
+    content: $jdsi-word-solid; 
+  }
+}
+.jdsi-files-unknow-solid {
+  &:before {
+    content: $jdsi-files-unknow-solid; 
+  }
+}
+.jdsi-file-unknow-solid {
+  &:before {
+    content: $jdsi-file-unknow-solid; 
+  }
+}
+.jdsi-file-pdf-solid {
+  &:before {
+    content: $jdsi-file-pdf-solid; 
+  }
+}
+.jdsi-pdf-solid {
+  &:before {
+    content: $jdsi-pdf-solid; 
+  }
+}
+.jdsi-folder-open-solid {
+  &:before {
+    content: $jdsi-folder-open-solid; 
+  }
+}
+.jdsi-folder-solid {
+  &:before {
+    content: $jdsi-folder-solid; 
+  }
+}
+.jdsi-folders-solid {
+  &:before {
+    content: $jdsi-folders-solid; 
+  }
+}
+.jdsi-cloud-off-solid {
+  &:before {
+    content: $jdsi-cloud-off-solid; 
+  }
+}
+.jdsi-cloud-solid {
+  &:before {
+    content: $jdsi-cloud-solid; 
+  }
+}
+.jdsi-cloud-up-solid {
+  &:before {
+    content: $jdsi-cloud-up-solid; 
+  }
+}
+.jdsi-cloud-down-solid {
+  &:before {
+    content: $jdsi-cloud-down-solid; 
+  }
+}
+.jdsi-cloud-close-solid {
+  &:before {
+    content: $jdsi-cloud-close-solid; 
+  }
+}
+.jdsi-cloud-check-solid {
+  &:before {
+    content: $jdsi-cloud-check-solid; 
+  }
+}
+.jdsi-cloud-crack-solid {
+  &:before {
+    content: $jdsi-cloud-crack-solid; 
+  }
+}
+.jdsi-file-shred-solid {
+  &:before {
+    content: $jdsi-file-shred-solid; 
+  }
+}
+.jdsi-sensor-solid {
+  &:before {
+    content: $jdsi-sensor-solid; 
+  }
+}
+.jdsi-measurement-solid {
+  &:before {
+    content: $jdsi-measurement-solid; 
+  }
+}
+.jdsi-cut-solid {
+  &:before {
+    content: $jdsi-cut-solid; 
+  }
+}
+.jdsi-edit-solid {
+  &:before {
+    content: $jdsi-edit-solid; 
+  }
+}
+.jdsi-at-solid {
+  &:before {
+    content: $jdsi-at-solid; 
+  }
+}
+.jdsi-reload-solid {
+  &:before {
+    content: $jdsi-reload-solid; 
+  }
+}
+.jdsi-refrash-solid {
+  &:before {
+    content: $jdsi-refrash-solid; 
+  }
+}
+.jdsi-copy-solid {
+  &:before {
+    content: $jdsi-copy-solid; 
+  }
+}
+.jdsi-todo-solid {
+  &:before {
+    content: $jdsi-todo-solid; 
+  }
+}
+.jdsi-save-solid {
+  &:before {
+    content: $jdsi-save-solid; 
+  }
+}
+.jdsi-cup-solid {
+  &:before {
+    content: $jdsi-cup-solid; 
+  }
+}
+.jdsi-alarm-warning-solid {
+  &:before {
+    content: $jdsi-alarm-warning-solid; 
+  }
+}
+.jdsi-light-flash-solid {
+  &:before {
+    content: $jdsi-light-flash-solid; 
+  }
+}
+.jdsi-light-solid {
+  &:before {
+    content: $jdsi-light-solid; 
+  }
+}
+.jdsi-arrow-back-solid {
+  &:before {
+    content: $jdsi-arrow-back-solid; 
+  }
+}
+.jdsi-arrow-begin-solid {
+  &:before {
+    content: $jdsi-arrow-begin-solid; 
+  }
+}
+.jdsi-arrow-down-solid {
+  &:before {
+    content: $jdsi-arrow-down-solid; 
+  }
+}
+.jdsi-arrow-end-solid {
+  &:before {
+    content: $jdsi-arrow-end-solid; 
+  }
+}
+.jdsi-arrow-first-solid {
+  &:before {
+    content: $jdsi-arrow-first-solid; 
+  }
+}
+.jdsi-arrow-last-solid {
+  &:before {
+    content: $jdsi-arrow-last-solid; 
+  }
+}
+.jdsi-arrow-left-double-solid {
+  &:before {
+    content: $jdsi-arrow-left-double-solid; 
+  }
+}
+.jdsi-arrow-left-long-solid {
+  &:before {
+    content: $jdsi-arrow-left-long-solid; 
+  }
+}
+.jdsi-arrow-left-solid {
+  &:before {
+    content: $jdsi-arrow-left-solid; 
+  }
+}
+.jdsi-arrow-right-double-solid {
+  &:before {
+    content: $jdsi-arrow-right-double-solid; 
+  }
+}
+.jdsi-arrow-right-long-solid {
+  &:before {
+    content: $jdsi-arrow-right-long-solid; 
+  }
+}
+.jdsi-arrow-right-solid {
+  &:before {
+    content: $jdsi-arrow-right-solid; 
+  }
+}
+.jdsi-arrow-right-top-solid {
+  &:before {
+    content: $jdsi-arrow-right-top-solid; 
+  }
+}
+.jdsi-arrow-up-solid {
+  &:before {
+    content: $jdsi-arrow-up-solid; 
+  }
+}
+.jdsi-award-solid {
+  &:before {
+    content: $jdsi-award-solid; 
+  }
+}
+.jdsi-bank-card-solid {
+  &:before {
+    content: $jdsi-bank-card-solid; 
+  }
+}
+.jdsi-error-solid {
+  &:before {
+    content: $jdsi-error-solid; 
+  }
+}
+.jdsi-help-cercle-solid {
+  &:before {
+    content: $jdsi-help-cercle-solid; 
+  }
+}
+.jdsi-earth-solid {
+  &:before {
+    content: $jdsi-earth-solid; 
+  }
+}
+.jdsi-smartphone-solid {
+  &:before {
+    content: $jdsi-smartphone-solid; 
+  }
+}
+.jdsi-webcam-solid {
+  &:before {
+    content: $jdsi-webcam-solid; 
+  }
+}
+.jdsi-power-solid {
+  &:before {
+    content: $jdsi-power-solid; 
+  }
+}
+.jdsi-focus-solid {
+  &:before {
+    content: $jdsi-focus-solid; 
+  }
+}
+.jdsi-message-solid {
+  &:before {
+    content: $jdsi-message-solid; 
+  }
+}
+.jdsi-swap-solid {
+  &:before {
+    content: $jdsi-swap-solid; 
+  }
+}
+.jdsi-right-circle-solid {
+  &:before {
+    content: $jdsi-right-circle-solid; 
+  }
+}
+.jdsi-door-lock-solid {
+  &:before {
+    content: $jdsi-door-lock-solid; 
+  }
+}
+.jdsi-mouse-solid {
+  &:before {
+    content: $jdsi-mouse-solid; 
+  }
+}
+.jdsi-carrot-down-solid {
+  &:before {
+    content: $jdsi-carrot-down-solid; 
+  }
+}
+.jdsi-carrot-first-solid {
+  &:before {
+    content: $jdsi-carrot-first-solid; 
+  }
+}
+.jdsi-carrot-last-solid {
+  &:before {
+    content: $jdsi-carrot-last-solid; 
+  }
+}
+.jdsi-carrot-left-solid {
+  &:before {
+    content: $jdsi-carrot-left-solid; 
+  }
+}
+.jdsi-carrot-right-solid {
+  &:before {
+    content: $jdsi-carrot-right-solid; 
+  }
+}
+.jdsi-carrot-up-solid {
+  &:before {
+    content: $jdsi-carrot-up-solid; 
+  }
+}
+.jdsi-chart-customize-solid {
+  &:before {
+    content: $jdsi-chart-customize-solid; 
+  }
+}
+.jdsi-chat-solid {
+  &:before {
+    content: $jdsi-chat-solid; 
+  }
+}
+.jdsi-clipboard-solid {
+  &:before {
+    content: $jdsi-clipboard-solid; 
+  }
+}
+.jdsi-clise-solid {
+  &:before {
+    content: $jdsi-clise-solid; 
+  }
+}
+.jdsi-clock-alram-solid {
+  &:before {
+    content: $jdsi-clock-alram-solid; 
+  }
+}
+.jdsi-clock-solid {
+  &:before {
+    content: $jdsi-clock-solid; 
+  }
+}
+.jdsi-code-solid {
+  &:before {
+    content: $jdsi-code-solid; 
+  }
+}
+.jdsi-collapse-around-solid {
+  &:before {
+    content: $jdsi-collapse-around-solid; 
+  }
+}
+.jdsi-community-building-solid {
+  &:before {
+    content: $jdsi-community-building-solid; 
+  }
+}
+.jdsi-company-solid {
+  &:before {
+    content: $jdsi-company-solid; 
+  }
+}
+.jdsi-compass-solid {
+  &:before {
+    content: $jdsi-compass-solid; 
+  }
+}
+.jdsi-configuration-solid {
+  &:before {
+    content: $jdsi-configuration-solid; 
+  }
+}
+.jdsi-countdown-solid {
+  &:before {
+    content: $jdsi-countdown-solid; 
+  }
+}
+.jdsi-cross-box-solid {
+  &:before {
+    content: $jdsi-cross-box-solid; 
+  }
+}
+.jdsi-cross-circle-solid {
+  &:before {
+    content: $jdsi-cross-circle-solid; 
+  }
+}
+.jdsi-crown-solid {
+  &:before {
+    content: $jdsi-crown-solid; 
+  }
+}
+.jdsi-currency-boxes-solid {
+  &:before {
+    content: $jdsi-currency-boxes-solid; 
+  }
+}
+.jdsi-delete-solid {
+  &:before {
+    content: $jdsi-delete-solid; 
+  }
+}
+.jdsi-devices-solid {
+  &:before {
+    content: $jdsi-devices-solid; 
+  }
+}
+.jdsi-diamond-solid {
+  &:before {
+    content: $jdsi-diamond-solid; 
+  }
+}
+.jdsi-download-solid {
+  &:before {
+    content: $jdsi-download-solid; 
+  }
+}
+.jdsi-exchange-box-solid {
+  &:before {
+    content: $jdsi-exchange-box-solid; 
+  }
+}
+.jdsi-expand-around-solid {
+  &:before {
+    content: $jdsi-expand-around-solid; 
+  }
+}
+.jdsi-eye-off-solid {
+  &:before {
+    content: $jdsi-eye-off-solid; 
+  }
+}
+.jdsi-eye-solid {
+  &:before {
+    content: $jdsi-eye-solid; 
+  }
+}
+.jdsi-face-mask-solid {
+  &:before {
+    content: $jdsi-face-mask-solid; 
+  }
+}
+.jdsi-fax-solid {
+  &:before {
+    content: $jdsi-fax-solid; 
+  }
+}
+.jdsi-filling-solid {
+  &:before {
+    content: $jdsi-filling-solid; 
+  }
+}
+.jdsi-filter-solid {
+  &:before {
+    content: $jdsi-filter-solid; 
+  }
+}
+.jdsi-fire-solid {
+  &:before {
+    content: $jdsi-fire-solid; 
+  }
+}
+.jdsi-flag-solid {
+  &:before {
+    content: $jdsi-flag-solid; 
+  }
+}
+.jdsi-flag-wind-solid {
+  &:before {
+    content: $jdsi-flag-wind-solid; 
+  }
+}
+.jdsi-forward-solid {
+  &:before {
+    content: $jdsi-forward-solid; 
+  }
+}
+.jdsi-function-solis {
+  &:before {
+    content: $jdsi-function-solis; 
+  }
+}
+.jdsi-global-net-solid {
+  &:before {
+    content: $jdsi-global-net-solid; 
+  }
+}
+.jdsi-globe-solid {
+  &:before {
+    content: $jdsi-globe-solid; 
+  }
+}
+.jdsi-graph-chart-solid {
+  &:before {
+    content: $jdsi-graph-chart-solid; 
+  }
+}
+.jdsi-grid-solid {
+  &:before {
+    content: $jdsi-grid-solid; 
+  }
+}
+.jdsi-hamburger-solid {
+  &:before {
+    content: $jdsi-hamburger-solid; 
+  }
+}
+.jdsi-honour-solid {
+  &:before {
+    content: $jdsi-honour-solid; 
+  }
+}
+.jdsi-image-place-solid {
+  &:before {
+    content: $jdsi-image-place-solid; 
+  }
+}
+.jdsi-image-solid {
+  &:before {
+    content: $jdsi-image-solid; 
+  }
+}
+.jdsi-industry-solid {
+  &:before {
+    content: $jdsi-industry-solid; 
+  }
+}
+.jdsi-key-solid {
+  &:before {
+    content: $jdsi-key-solid; 
+  }
+}
+.jdsi-laptop-solid {
+  &:before {
+    content: $jdsi-laptop-solid; 
+  }
+}
+.jdsi-lifebuoy-solid {
+  &:before {
+    content: $jdsi-lifebuoy-solid; 
+  }
+}
+.jdsi-link-solid {
+  &:before {
+    content: $jdsi-link-solid; 
+  }
+}
+.jdsi-lock-solid {
+  &:before {
+    content: $jdsi-lock-solid; 
+  }
+}
+.jdsi-login-box-solid {
+  &:before {
+    content: $jdsi-login-box-solid; 
+  }
+}
+.jdsi-login-circle-solid {
+  &:before {
+    content: $jdsi-login-circle-solid; 
+  }
+}
+.jdsi-logout-box-solid {
+  &:before {
+    content: $jdsi-logout-box-solid; 
+  }
+}
+.jdsi-logout-circle-solid {
+  &:before {
+    content: $jdsi-logout-circle-solid; 
+  }
+}
+.jdsi-magic-solid {
+  &:before {
+    content: $jdsi-magic-solid; 
+  }
+}
+.jdsi-mail-add-solid {
+  &:before {
+    content: $jdsi-mail-add-solid; 
+  }
+}
+.jdsi-mail-check-solid {
+  &:before {
+    content: $jdsi-mail-check-solid; 
+  }
+}
+.jdsi-mail-close-solid {
+  &:before {
+    content: $jdsi-mail-close-solid; 
+  }
+}
+.jdsi-mail-download-solid {
+  &:before {
+    content: $jdsi-mail-download-solid; 
+  }
+}
+.jdsi-mail-forbid-solid {
+  &:before {
+    content: $jdsi-mail-forbid-solid; 
+  }
+}
+.jdsi-mail-inbox-solid {
+  &:before {
+    content: $jdsi-mail-inbox-solid; 
+  }
+}
+.jdsi-mail-lock-solid {
+  &:before {
+    content: $jdsi-mail-lock-solid; 
+  }
+}
+.jdsi-mail-open-solid {
+  &:before {
+    content: $jdsi-mail-open-solid; 
+  }
+}
+.jdsi-mail-search-solid {
+  &:before {
+    content: $jdsi-mail-search-solid; 
+  }
+}
+.jdsi-mail-send-solid {
+  &:before {
+    content: $jdsi-mail-send-solid; 
+  }
+}
+.jdsi-mail-settings-solid {
+  &:before {
+    content: $jdsi-mail-settings-solid; 
+  }
+}
+.jdsi-mail-solid {
+  &:before {
+    content: $jdsi-mail-solid; 
+  }
+}
+.jdsi-mail-star-solid {
+  &:before {
+    content: $jdsi-mail-star-solid; 
+  }
+}
+.jdsi-mail-unread-solid {
+  &:before {
+    content: $jdsi-mail-unread-solid; 
+  }
+}
+.jdsi-manage-solid {
+  &:before {
+    content: $jdsi-manage-solid; 
+  }
+}
+.jdsi-map-pin-land-solid {
+  &:before {
+    content: $jdsi-map-pin-land-solid; 
+  }
+}
+.jdsi-map-pin-solid {
+  &:before {
+    content: $jdsi-map-pin-solid; 
+  }
+}
+.jdsi-mic-off-solid {
+  &:before {
+    content: $jdsi-mic-off-solid; 
+  }
+}
+.jdsi-mic-solid {
+  &:before {
+    content: $jdsi-mic-solid; 
+  }
+}
+.jdsi-money-box-solid {
+  &:before {
+    content: $jdsi-money-box-solid; 
+  }
+}
+.jdsi-money-circle-solid {
+  &:before {
+    content: $jdsi-money-circle-solid; 
+  }
+}
+.jdsi-monitor-solid {
+  &:before {
+    content: $jdsi-monitor-solid; 
+  }
+}
+.jdsi-moon-solid {
+  &:before {
+    content: $jdsi-moon-solid; 
+  }
+}
+.jdsi-more-h-solid {
+  &:before {
+    content: $jdsi-more-h-solid; 
+  }
+}
+.jdsi-more-v-solid {
+  &:before {
+    content: $jdsi-more-v-solid; 
+  }
+}
+.jdsi-notification-solid {
+  &:before {
+    content: $jdsi-notification-solid; 
+  }
+}
+.jdsi-palette-solid {
+  &:before {
+    content: $jdsi-palette-solid; 
+  }
+}
+.jdsi-percent-solid {
+  &:before {
+    content: $jdsi-percent-solid; 
+  }
+}
+.jdsi-phone-solid {
+  &:before {
+    content: $jdsi-phone-solid; 
+  }
+}
+.jdsi-pie-chart-solid {
+  &:before {
+    content: $jdsi-pie-chart-solid; 
+  }
+}
+.jdsi-plant-solid {
+  &:before {
+    content: $jdsi-plant-solid; 
+  }
+}
+.jdsi-plus-solid {
+  &:before {
+    content: $jdsi-plus-solid; 
+  }
+}
+.jdsi-printer-solid {
+  &:before {
+    content: $jdsi-printer-solid; 
+  }
+}
+.jdsi-question-answer-solid {
+  &:before {
+    content: $jdsi-question-answer-solid; 
+  }
+}
+.jdsi-brush-solid {
+  &:before {
+    content: $jdsi-brush-solid; 
+  }
+}
+.jdsi-quill-pen-solid {
+  &:before {
+    content: $jdsi-quill-pen-solid; 
+  }
+}
+.jdsi-radar-solid {
+  &:before {
+    content: $jdsi-radar-solid; 
+  }
+}
+.jdsi-record-solid {
+  &:before {
+    content: $jdsi-record-solid; 
+  }
+}
+.jdsi-reply-all-solid {
+  &:before {
+    content: $jdsi-reply-all-solid; 
+  }
+}
+.jdsi-reply-solid {
+  &:before {
+    content: $jdsi-reply-solid; 
+  }
+}
+.jdsi-right-box-solid {
+  &:before {
+    content: $jdsi-right-box-solid; 
+  }
+}
+.jdsi-right-solid {
+  &:before {
+    content: $jdsi-right-solid; 
+  }
+}
+.jdsi-rocket-solid {
+  &:before {
+    content: $jdsi-rocket-solid; 
+  }
+}
+.jdsi-safe-solid {
+  &:before {
+    content: $jdsi-safe-solid; 
+  }
+}
+.jdsi-safe-vault-solid {
+  &:before {
+    content: $jdsi-safe-vault-solid; 
+  }
+}
+.jdsi-secured-solid {
+  &:before {
+    content: $jdsi-secured-solid; 
+  }
+}
+.jdsi-send-solid {
+  &:before {
+    content: $jdsi-send-solid; 
+  }
+}
+.jdsi-server-solid {
+  &:before {
+    content: $jdsi-server-solid; 
+  }
+}
+.jdsi-settings-solid {
+  &:before {
+    content: $jdsi-settings-solid; 
+  }
+}
+.jdsi-share-forward-solid {
+  &:before {
+    content: $jdsi-share-forward-solid; 
+  }
+}
+.jdsi-share-solid {
+  &:before {
+    content: $jdsi-share-solid; 
+  }
+}
+.jdsi-stack-solid {
+  &:before {
+    content: $jdsi-stack-solid; 
+  }
+}
+.jdsi-star-solid {
+  &:before {
+    content: $jdsi-star-solid; 
+  }
+}
+.jdsi-sun-solid {
+  &:before {
+    content: $jdsi-sun-solid; 
+  }
+}
+.jdsi-thumb-down-solid {
+  &:before {
+    content: $jdsi-thumb-down-solid; 
+  }
+}
+.jdsi-thumb-up-solid {
+  &:before {
+    content: $jdsi-thumb-up-solid; 
+  }
+}
+.jdsi-trophy-solid {
+  &:before {
+    content: $jdsi-trophy-solid; 
+  }
+}
+.jdsi-umbrella-solid {
+  &:before {
+    content: $jdsi-umbrella-solid; 
+  }
+}
+.jdsi-upload-solid {
+  &:before {
+    content: $jdsi-upload-solid; 
+  }
+}
+.jdsi-vidicon-solid {
+  &:before {
+    content: $jdsi-vidicon-solid; 
+  }
+}
+.jdsi-volume-down-solid {
+  &:before {
+    content: $jdsi-volume-down-solid; 
+  }
+}
+.jdsi-volume-mute-solid {
+  &:before {
+    content: $jdsi-volume-mute-solid; 
+  }
+}
+.jdsi-volume-up-solid {
+  &:before {
+    content: $jdsi-volume-up-solid; 
+  }
+}
+.jdsi-wallet-solid {
+  &:before {
+    content: $jdsi-wallet-solid; 
+  }
+}
+.jdsi-window-solid {
+  &:before {
+    content: $jdsi-window-solid; 
+  }
+}
+.jdsi-zoom-in-solid {
+  &:before {
+    content: $jdsi-zoom-in-solid; 
+  }
+}
+.jdsi-zoom-out-solid {
+  &:before {
+    content: $jdsi-zoom-out-solid; 
+  }
+}
+.jdsi-search-solid {
+  &:before {
+    content: $jdsi-search-solid; 
+  }
+}
+
