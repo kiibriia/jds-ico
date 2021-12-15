@@ -18,6 +18,16 @@ Use the css file in your application HTML
 ### You can add this file into your CSS File
 (@import "https://www.julyservices.com/jds/icon/fonts.css";).
 
+
+
+### Just 2 Staps
+
+1 _Install CSS File_ 
+and 
+2 _use class jdsi-[your icon name]_ 
+
+`<i class="jdsi-cup"></i>` 
+
 ### Using CSS Content Icons
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -43,13 +53,6 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 }
 `
 
-**Just 2 Staps** 
-
-1 _Install CSS File_ 
-and 
-2 _use class jdsi-[your icon name]_ 
-
-`<i class="jdsi-cup"></i>` 
 
 [Link](https://www.julyservices.com/jds/icon/) and ![Image](https://www.julyservices.com/jds/icon/july-ico.jpg)
 ```
