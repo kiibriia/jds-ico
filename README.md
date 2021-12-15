@@ -23,7 +23,9 @@ Use the css file in your application HTML
 ### Just 2 Staps
 
 1 _Install CSS File_ 
+
 and 
+
 2 _use class jdsi-[your icon name]_ 
 
 `<i class="jdsi-cup"></i>` 
