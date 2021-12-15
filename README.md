@@ -42,11 +42,14 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
     
 }
 `
+
 **Just 2 Staps** 
+
 1 _Install CSS File_ 
 and 
 2 _use class jdsi-[your icon name]_ 
-`<i class="jdsi-cup"></i>` text
+
+`<i class="jdsi-cup"></i>` 
 
 [Link](https://www.julyservices.com/jds/icon/) and ![Image](https://www.julyservices.com/jds/icon/july-ico.jpg)
 ```
