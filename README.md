@@ -1,6 +1,6 @@
 # jds-ico
 
-# ICONS INSTALLATION PROCESS
+## ICONS INSTALLATION PROCESS
 
 Place scalable vector icons anywhere in your content.
 
@@ -42,7 +42,11 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
     
 }
 `
-**Bold** and _Italic_ and `Code` text
+**Just 2 Staps** 
+1 _Install CSS File_ 
+and 
+2 _use class jdsi-[your icon name]_ 
+`<i class="jdsi-cup"></i>` text
 
 [Link](https://www.julyservices.com/jds/icon/) and ![Image](https://www.julyservices.com/jds/icon/july-ico.jpg)
 ```
