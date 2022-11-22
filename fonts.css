@@ -9,7 +9,7 @@
 }
 
 
-i[class^="jdsi-"] {
+i[class^="jdsi-"], span[class^="jdsi-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "julyico" !important;
   font-style: normal;
