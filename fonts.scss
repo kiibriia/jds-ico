@@ -12,7 +12,7 @@
   font-display: block;
 }
 
-i[class^="jdsi-"] {
+i[class^="jdsi-"], span[class^="jdsi-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
   //speak: never;
@@ -219,8 +219,7 @@ i[class^="jdsi-"] {
 }
 .jdsi-brush {
   &:before {
-    content: $jdsi-brush;     
-    color: #155c9e;
+    content: $jdsi-brush;
   }
 }
 .jdsi-bug {
@@ -473,9 +472,9 @@ i[class^="jdsi-"] {
     content: $jdsi-enroll; 
   }
 }
-.jdsi-error {
+.jdsi-error-circle {
   &:before {
-    content: $jdsi-error; 
+    content: $jdsi-error-circle; 
   }
 }
 .jdsi-error-open {
@@ -663,9 +662,9 @@ i[class^="jdsi-"] {
     content: $jdsi-help-box; 
   }
 }
-.jdsi-help-cercle {
+.jdsi-help-circle {
   &:before {
-    content: $jdsi-help-cercle; 
+    content: $jdsi-help-circle; 
   }
 }
 .jdsi-help-open {
@@ -1998,9 +1997,9 @@ i[class^="jdsi-"] {
     content: $jdsi-help-box-solid; 
   }
 }
-.jdsi-help-cercle-solid {
+.jdsi-help-circle-solid {
   &:before {
-    content: $jdsi-help-cercle-solid; 
+    content: $jdsi-help-circle-solid; 
   }
 }
 .jdsi-home-solid {
