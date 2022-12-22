@@ -1,14 +1,14 @@
 @charset "UTF-8";
 @font-face {
   font-family: "julyico";
-  src: url("fonts/julyico.eot?zgh3xg");
-  src: url("fonts/julyico.eot?zgh3xg#iefix") format("embedded-opentype"), url("fonts/julyico.ttf?zgh3xg") format("truetype"), url("fonts/julyico.woff?zgh3xg") format("woff"), url("fonts/julyico.svg?zgh3xg#julyico") format("svg");
+  src: url("fonts/julyico.eot?bef9pb");
+  src: url("fonts/julyico.eot?bef9pb#iefix") format("embedded-opentype"), url("fonts/julyico.ttf?bef9pb") format("truetype"), url("fonts/julyico.woff?bef9pb") format("woff"), url("fonts/julyico.svg?bef9pb#julyico") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-i[class^="jdsi-"] {
+i[class^="jdsi-"], span[class^="jdsi-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "julyico" !important;
   font-style: normal;
@@ -19,6 +19,58 @@ i[class^="jdsi-"] {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.jdsi-task:before {
+  content: "";
+}
+
+.jdsi-balloons:before {
+  content: "";
+}
+
+.jdsi-cleanup:before {
+  content: "";
+}
+
+.jdsi-documant-minus:before {
+  content: "";
+}
+
+.jdsi-documant-plus:before {
+  content: "";
+}
+
+.jdsi-file-damage:before {
+  content: "";
+}
+
+.jdsi-fingerprint:before {
+  content: "";
+}
+
+.jdsi-fish:before {
+  content: "";
+}
+
+.jdsi-gamepad:before {
+  content: "";
+}
+
+.jdsi-order-descending:before {
+  content: "";
+}
+
+.jdsi-order-asc:before {
+  content: "";
+}
+
+.jdsi-order-both:before {
+  content: "";
+}
+
+.jdsi-password:before {
+  content: "";
 }
 
 .jdsi-Printer:before {
@@ -377,7 +429,7 @@ i[class^="jdsi-"] {
   content: "";
 }
 
-.jdsi-error-circle:before {
+.jdsi-error:before {
   content: "";
 }
 
@@ -529,7 +581,7 @@ i[class^="jdsi-"] {
   content: "";
 }
 
-.jdsi-help-circle:before {
+.jdsi-help-cercle:before {
   content: "";
 }
 
@@ -1109,6 +1161,46 @@ i[class^="jdsi-"] {
   content: "";
 }
 
+.jdsi-task-solid:before {
+  content: "";
+}
+
+.jdsi-cleanup-solid:before {
+  content: "";
+}
+
+.jdsi-documant-minus-solid:before {
+  content: "";
+}
+
+.jdsi-documant-plus-solid:before {
+  content: "";
+}
+
+.jdsi-file-damage-solid:before {
+  content: "";
+}
+
+.jdsi-order-asc-solid:before {
+  content: "";
+}
+
+.jdsi-order-both-solid:before {
+  content: "";
+}
+
+.jdsi-order-descending-solid:before {
+  content: "";
+}
+
+.jdsi-password-solid:before {
+  content: "";
+}
+
+.jdsi-toogle-solid:before {
+  content: "";
+}
+
 .jdsi-account-solid:before {
   content: "";
 }
@@ -1597,7 +1689,7 @@ i[class^="jdsi-"] {
   content: "";
 }
 
-.jdsi-help-circle-solid:before {
+.jdsi-help-cercle-solid:before {
   content: "";
 }
 
