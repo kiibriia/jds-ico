@@ -19,6 +19,7 @@ i[class^="jdsi-"], span[class^="jdsi-"] {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .jdsi-task:before {
   content: "\eb13";
 }
