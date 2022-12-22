@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?zgh3xg');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?zgh3xg#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?zgh3xg') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?zgh3xg') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?zgh3xg##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bef9pb');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bef9pb#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?bef9pb') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?bef9pb') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?bef9pb##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,71 @@ i[class^="jdsi-"], span[class^="jdsi-"] {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.jdsi-task {
+  &:before {
+    content: $jdsi-task; 
+  }
+}
+.jdsi-balloons {
+  &:before {
+    content: $jdsi-balloons; 
+  }
+}
+.jdsi-cleanup {
+  &:before {
+    content: $jdsi-cleanup; 
+  }
+}
+.jdsi-documant-minus {
+  &:before {
+    content: $jdsi-documant-minus; 
+  }
+}
+.jdsi-documant-plus {
+  &:before {
+    content: $jdsi-documant-plus; 
+  }
+}
+.jdsi-file-damage {
+  &:before {
+    content: $jdsi-file-damage; 
+  }
+}
+.jdsi-fingerprint {
+  &:before {
+    content: $jdsi-fingerprint; 
+  }
+}
+.jdsi-fish {
+  &:before {
+    content: $jdsi-fish; 
+  }
+}
+.jdsi-gamepad {
+  &:before {
+    content: $jdsi-gamepad; 
+  }
+}
+.jdsi-order-descending {
+  &:before {
+    content: $jdsi-order-descending; 
+  }
+}
+.jdsi-order-asc {
+  &:before {
+    content: $jdsi-order-asc; 
+  }
+}
+.jdsi-order-both {
+  &:before {
+    content: $jdsi-order-both; 
+  }
+}
+.jdsi-password {
+  &:before {
+    content: $jdsi-password; 
+  }
+}
 .jdsi-Printer {
   &:before {
     content: $jdsi-Printer; 
@@ -219,8 +284,7 @@ i[class^="jdsi-"], span[class^="jdsi-"] {
 }
 .jdsi-brush {
   &:before {
-    content: $jdsi-brush;     
-    color: #155c9e;
+    content: $jdsi-brush; 
   }
 }
 .jdsi-bug {
@@ -1386,6 +1450,56 @@ i[class^="jdsi-"], span[class^="jdsi-"] {
 .jdsi-zoom-out {
   &:before {
     content: $jdsi-zoom-out; 
+  }
+}
+.jdsi-task-solid {
+  &:before {
+    content: $jdsi-task-solid; 
+  }
+}
+.jdsi-cleanup-solid {
+  &:before {
+    content: $jdsi-cleanup-solid; 
+  }
+}
+.jdsi-documant-minus-solid {
+  &:before {
+    content: $jdsi-documant-minus-solid; 
+  }
+}
+.jdsi-documant-plus-solid {
+  &:before {
+    content: $jdsi-documant-plus-solid; 
+  }
+}
+.jdsi-file-damage-solid {
+  &:before {
+    content: $jdsi-file-damage-solid; 
+  }
+}
+.jdsi-order-asc-solid {
+  &:before {
+    content: $jdsi-order-asc-solid; 
+  }
+}
+.jdsi-order-both-solid {
+  &:before {
+    content: $jdsi-order-both-solid; 
+  }
+}
+.jdsi-order-descending-solid {
+  &:before {
+    content: $jdsi-order-descending-solid; 
+  }
+}
+.jdsi-password-solid {
+  &:before {
+    content: $jdsi-password-solid; 
+  }
+}
+.jdsi-toogle-solid {
+  &:before {
+    content: $jdsi-toogle-solid; 
   }
 }
 .jdsi-account-solid {
