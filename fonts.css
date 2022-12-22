@@ -7,7 +7,6 @@
   font-style: normal;
   font-display: block;
 }
-
 i[class^="jdsi-"], span[class^="jdsi-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "julyico" !important;
@@ -20,7 +19,6 @@ i[class^="jdsi-"], span[class^="jdsi-"] {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .jdsi-task:before {
   content: "\eb13";
 }
