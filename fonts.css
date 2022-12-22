@@ -8,8 +8,7 @@
   font-display: block;
 }
 
-
-i[class^="jdsi-"], span[class^="jdsi-"] {
+i[class^="jdsi-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "julyico" !important;
   font-style: normal;
@@ -176,7 +175,6 @@ i[class^="jdsi-"], span[class^="jdsi-"] {
 
 .jdsi-brush:before {
   content: "";
-  color: #155c9e;
 }
 
 .jdsi-bug:before {
@@ -379,7 +377,7 @@ i[class^="jdsi-"], span[class^="jdsi-"] {
   content: "";
 }
 
-.jdsi-error:before {
+.jdsi-error-circle:before {
   content: "";
 }
 
@@ -531,7 +529,7 @@ i[class^="jdsi-"], span[class^="jdsi-"] {
   content: "";
 }
 
-.jdsi-help-cercle:before {
+.jdsi-help-circle:before {
   content: "";
 }
 
@@ -1599,7 +1597,7 @@ i[class^="jdsi-"], span[class^="jdsi-"] {
   content: "";
 }
 
-.jdsi-help-cercle-solid:before {
+.jdsi-help-circle-solid:before {
   content: "";
 }
 
