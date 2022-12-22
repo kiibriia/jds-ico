@@ -22,2218 +22,1664 @@ i[class^="jdsi-"], span[class^="jdsi-"] {
 }
 
 .jdsi-task:before {
-  content: "";
+  content: "\eb13";
 }
-
 .jdsi-balloons:before {
-  content: "";
+  content: "\eb14";
 }
-
 .jdsi-cleanup:before {
-  content: "";
+  content: "\eb15";
 }
-
 .jdsi-documant-minus:before {
-  content: "";
+  content: "\eb16";
 }
-
 .jdsi-documant-plus:before {
-  content: "";
+  content: "\eb17";
 }
-
 .jdsi-file-damage:before {
-  content: "";
+  content: "\eb18";
 }
-
 .jdsi-fingerprint:before {
-  content: "";
+  content: "\eb19";
 }
-
 .jdsi-fish:before {
-  content: "";
+  content: "\eb1a";
 }
-
 .jdsi-gamepad:before {
-  content: "";
+  content: "\eb1b";
 }
-
 .jdsi-order-descending:before {
-  content: "";
+  content: "\eb1c";
 }
-
 .jdsi-order-asc:before {
-  content: "";
+  content: "\eb1d";
 }
-
 .jdsi-order-both:before {
-  content: "";
+  content: "\eb1e";
 }
-
 .jdsi-password:before {
-  content: "";
+  content: "\eb1f";
 }
-
 .jdsi-Printer:before {
-  content: "";
+  content: "\eac3";
 }
-
 .jdsi-account:before {
-  content: "";
+  content: "\e9f2";
 }
-
 .jdsi-add-user:before {
-  content: "";
+  content: "\e9f3";
 }
-
 .jdsi-alarm-warning:before {
-  content: "";
+  content: "\e9f4";
 }
-
 .jdsi-align-center:before {
-  content: "";
+  content: "\e9f5";
 }
-
 .jdsi-align-justify:before {
-  content: "";
+  content: "\e9f6";
 }
-
 .jdsi-align-left:before {
-  content: "";
+  content: "\e9f7";
 }
-
 .jdsi-align-right:before {
-  content: "";
+  content: "\e9f8";
 }
-
 .jdsi-announcement:before {
-  content: "";
+  content: "\e9f9";
 }
-
 .jdsi-arrow-back:before {
-  content: "";
+  content: "\e9fa";
 }
-
 .jdsi-arrow-begin:before {
-  content: "";
+  content: "\e9fb";
 }
-
 .jdsi-arrow-down:before {
-  content: "";
+  content: "\e9fc";
 }
-
 .jdsi-arrow-end:before {
-  content: "";
+  content: "\e9fd";
 }
-
 .jdsi-arrow-first:before {
-  content: "";
+  content: "\e9fe";
 }
-
 .jdsi-arrow-last:before {
-  content: "";
+  content: "\e9ff";
 }
-
 .jdsi-arrow-left:before {
-  content: "";
+  content: "\ea00";
 }
-
 .jdsi-arrow-left-double:before {
-  content: "";
+  content: "\ea01";
 }
-
 .jdsi-arrow-left-long:before {
-  content: "";
+  content: "\ea02";
 }
-
 .jdsi-arrow-right:before {
-  content: "";
+  content: "\ea03";
 }
-
 .jdsi-arrow-right-double:before {
-  content: "";
+  content: "\ea04";
 }
-
 .jdsi-arrow-right-long:before {
-  content: "";
+  content: "\ea05";
 }
-
 .jdsi-arrow-right-top:before {
-  content: "";
+  content: "\ea06";
 }
-
 .jdsi-arrow-up:before {
-  content: "";
+  content: "\ea07";
 }
-
 .jdsi-article:before {
-  content: "";
+  content: "\ea08";
 }
-
 .jdsi-at:before {
-  content: "";
+  content: "\ea09";
 }
-
 .jdsi-attachment:before {
-  content: "";
+  content: "\ea0a";
 }
-
 .jdsi-award:before {
-  content: "";
+  content: "\ea0b";
 }
-
 .jdsi-bank-card:before {
-  content: "";
+  content: "\ea0c";
 }
-
 .jdsi-bar-chart:before {
-  content: "";
+  content: "\ea0d";
 }
-
 .jdsi-barricade:before {
-  content: "";
+  content: "\ea0e";
 }
-
 .jdsi-blueprint:before {
-  content: "";
+  content: "\ea0f";
 }
-
 .jdsi-bolt:before {
-  content: "";
+  content: "\ea10";
 }
-
 .jdsi-book:before {
-  content: "";
+  content: "\ea11";
 }
-
 .jdsi-book-open:before {
-  content: "";
+  content: "\ea15";
 }
-
 .jdsi-bookmark:before {
-  content: "";
+  content: "\ea12";
 }
-
 .jdsi-bookmark-minus:before {
-  content: "";
+  content: "\ea13";
 }
-
 .jdsi-bookmark-star:before {
-  content: "";
+  content: "\ea14";
 }
-
 .jdsi-briefcase:before {
-  content: "";
+  content: "\ea16";
 }
-
 .jdsi-brush:before {
-  content: "";
+  content: "\ea17";
 }
-
 .jdsi-bug:before {
-  content: "";
+  content: "\ea18";
 }
-
 .jdsi-building:before {
-  content: "";
+  content: "\ea19";
 }
-
 .jdsi-calculate:before {
-  content: "";
+  content: "\ea1a";
 }
-
 .jdsi-calendar:before {
-  content: "";
+  content: "\ea1b";
 }
-
 .jdsi-certificate:before {
-  content: "";
+  content: "\ea1c";
 }
-
 .jdsi-chart-customize:before {
-  content: "";
+  content: "\ea1d";
 }
-
 .jdsi-chat:before {
-  content: "";
+  content: "\ea1e";
 }
-
 .jdsi-circle-album:before {
-  content: "";
+  content: "\ea1f";
 }
-
 .jdsi-clipboard:before {
-  content: "";
+  content: "\ea20";
 }
-
 .jdsi-clock:before {
-  content: "";
+  content: "\ea21";
 }
-
 .jdsi-clock-alram:before {
-  content: "";
+  content: "\ea22";
 }
-
 .jdsi-close:before {
-  content: "";
+  content: "\ea23";
 }
-
 .jdsi-cloud:before {
-  content: "";
+  content: "\ea24";
 }
-
 .jdsi-cloud-check:before {
-  content: "";
+  content: "\ea25";
 }
-
 .jdsi-cloud-close:before {
-  content: "";
+  content: "\ea26";
 }
-
 .jdsi-cloud-crack:before {
-  content: "";
+  content: "\ea27";
 }
-
 .jdsi-cloud-down:before {
-  content: "";
+  content: "\ea28";
 }
-
 .jdsi-cloud-off:before {
-  content: "";
+  content: "\ea29";
 }
-
 .jdsi-cloud-up:before {
-  content: "";
+  content: "\ea2a";
 }
-
 .jdsi-code:before {
-  content: "";
+  content: "\ea2b";
 }
-
 .jdsi-collapse-around:before {
-  content: "";
+  content: "\ea2c";
 }
-
 .jdsi-community:before {
-  content: "";
+  content: "\ea2d";
 }
-
 .jdsi-community-building:before {
-  content: "";
+  content: "\ea2e";
 }
-
 .jdsi-company:before {
-  content: "";
+  content: "\ea2f";
 }
-
 .jdsi-compass:before {
-  content: "";
+  content: "\ea30";
 }
-
 .jdsi-configuration:before {
-  content: "";
+  content: "\ea31";
 }
-
 .jdsi-confused:before {
-  content: "";
+  content: "\ea32";
 }
-
 .jdsi-contacts:before {
-  content: "";
+  content: "\eb0f";
 }
-
 .jdsi-copy:before {
-  content: "";
+  content: "\ea33";
 }
-
 .jdsi-countdown:before {
-  content: "";
+  content: "\ea34";
 }
-
 .jdsi-cross-box:before {
-  content: "";
+  content: "\ea35";
 }
-
 .jdsi-cross-circle:before {
-  content: "";
+  content: "\ea36";
 }
-
 .jdsi-cross-open:before {
-  content: "";
+  content: "\ea37";
 }
-
 .jdsi-crown:before {
-  content: "";
+  content: "\ea38";
 }
-
 .jdsi-cup:before {
-  content: "";
+  content: "\ea39";
 }
-
 .jdsi-currency-boxes:before {
-  content: "";
+  content: "\ea3a";
 }
-
 .jdsi-cut:before {
-  content: "";
+  content: "\ea3b";
 }
-
 .jdsi-delete:before {
-  content: "";
+  content: "\ea3c";
 }
-
 .jdsi-devices:before {
-  content: "";
+  content: "\ea3d";
 }
-
 .jdsi-diamond:before {
-  content: "";
+  content: "\ea3e";
 }
-
 .jdsi-documant:before {
-  content: "";
+  content: "\ea3f";
 }
-
 .jdsi-dollar:before {
-  content: "";
+  content: "\ea40";
 }
-
 .jdsi-door-lock:before {
-  content: "";
+  content: "\ea41";
 }
-
 .jdsi-double-quotes-left:before {
-  content: "";
+  content: "\ea42";
 }
-
 .jdsi-double-quotes-right:before {
-  content: "";
+  content: "\ea43";
 }
-
 .jdsi-download:before {
-  content: "";
+  content: "\ea44";
 }
-
 .jdsi-earth:before {
-  content: "";
+  content: "\ea45";
 }
-
 .jdsi-edit:before {
-  content: "";
+  content: "\ea46";
 }
-
 .jdsi-education:before {
-  content: "";
+  content: "\ea47";
 }
-
 .jdsi-enroll:before {
-  content: "";
+  content: "\ea48";
 }
-
 .jdsi-error:before {
-  content: "";
+  content: "\ea4c";
 }
-
 .jdsi-error-open:before {
-  content: "";
+  content: "\ea4d";
 }
-
 .jdsi-excel:before {
-  content: "";
+  content: "\ea4e";
 }
-
 .jdsi-excel-files:before {
-  content: "";
+  content: "\ea4f";
 }
-
 .jdsi-exchange-box:before {
-  content: "";
+  content: "\ea50";
 }
-
 .jdsi-expand-around:before {
-  content: "";
+  content: "\ea51";
 }
-
 .jdsi-eye:before {
-  content: "";
+  content: "\ea52";
 }
-
 .jdsi-eye-off:before {
-  content: "";
+  content: "\ea53";
 }
-
 .jdsi-face-mask:before {
-  content: "";
+  content: "\ea54";
 }
-
 .jdsi-fax:before {
-  content: "";
+  content: "\ea55";
 }
-
 .jdsi-female:before {
-  content: "";
+  content: "\ea56";
 }
-
 .jdsi-file:before {
-  content: "";
+  content: "\ea57";
 }
-
 .jdsi-file-pdf:before {
-  content: "";
+  content: "\ea58";
 }
-
 .jdsi-file-shred:before {
-  content: "";
+  content: "\ea59";
 }
-
 .jdsi-file-unknow:before {
-  content: "";
+  content: "\ea5b";
 }
-
 .jdsi-files-unknow:before {
-  content: "";
+  content: "\ea5a";
 }
-
 .jdsi-filter:before {
-  content: "";
+  content: "\ea5c";
 }
-
 .jdsi-filtering:before {
-  content: "";
+  content: "\ea5d";
 }
-
 .jdsi-fire:before {
-  content: "";
+  content: "\ea5e";
 }
-
 .jdsi-flag:before {
-  content: "";
+  content: "\ea5f";
 }
-
 .jdsi-flag-wind:before {
-  content: "";
+  content: "\ea60";
 }
-
 .jdsi-focus:before {
-  content: "";
+  content: "\ea61";
 }
-
 .jdsi-fold-paper:before {
-  content: "";
+  content: "\ea65";
 }
-
 .jdsi-folder:before {
-  content: "";
+  content: "\ea62";
 }
-
 .jdsi-folder-open:before {
-  content: "";
+  content: "\ea63";
 }
-
 .jdsi-folders:before {
-  content: "";
+  content: "\ea64";
 }
-
 .jdsi-forward:before {
-  content: "";
+  content: "\ea66";
 }
-
 .jdsi-function:before {
-  content: "";
+  content: "\ea67";
 }
-
 .jdsi-function-e:before {
-  content: "";
+  content: "\ea68";
 }
-
 .jdsi-global-net:before {
-  content: "";
+  content: "\ea69";
 }
-
 .jdsi-globe:before {
-  content: "";
+  content: "\ea6a";
 }
-
 .jdsi-graph-chart:before {
-  content: "";
+  content: "\ea6b";
 }
-
 .jdsi-grid:before {
-  content: "";
+  content: "\ea6c";
 }
-
 .jdsi-hamburger:before {
-  content: "";
+  content: "\ea6d";
 }
-
 .jdsi-handshake:before {
-  content: "";
+  content: "\eb0b";
 }
-
 .jdsi-happy:before {
-  content: "";
+  content: "\ea6e";
 }
-
 .jdsi-heart:before {
-  content: "";
+  content: "\ea6f";
 }
-
 .jdsi-help-box:before {
-  content: "";
+  content: "\ea70";
 }
-
-.jdsi-help-cercle:before {
-  content: "";
+.jdsi-help-circle:before {
+  content: "\ea71";
 }
-
 .jdsi-help-open:before {
-  content: "";
+  content: "\ea72";
 }
-
 .jdsi-home:before {
-  content: "";
+  content: "\ea73";
 }
-
 .jdsi-honour:before {
-  content: "";
+  content: "\ea74";
 }
-
 .jdsi-ico:before {
-  content: "";
+  content: "\ea75";
 }
-
 .jdsi-image:before {
-  content: "";
+  content: "\ea79";
 }
-
 .jdsi-image-place:before {
-  content: "";
+  content: "\ea7a";
 }
-
 .jdsi-incognito:before {
-  content: "";
+  content: "\eb11";
 }
-
 .jdsi-industry:before {
-  content: "";
+  content: "\ea7b";
 }
-
 .jdsi-key:before {
-  content: "";
+  content: "\ea7c";
 }
-
 .jdsi-laptop:before {
-  content: "";
+  content: "\ea7d";
 }
-
 .jdsi-lifebuoy:before {
-  content: "";
+  content: "\ea7e";
 }
-
 .jdsi-light:before {
-  content: "";
+  content: "\ea7f";
 }
-
 .jdsi-light-flash:before {
-  content: "";
+  content: "\ea80";
 }
-
 .jdsi-link:before {
-  content: "";
+  content: "\ea81";
 }
-
 .jdsi-list:before {
-  content: "";
+  content: "\ea82";
 }
-
 .jdsi-loading:before {
-  content: "";
+  content: "\ea83";
 }
-
 .jdsi-lock:before {
-  content: "";
+  content: "\ea84";
 }
-
 .jdsi-login-box:before {
-  content: "";
+  content: "\ea85";
 }
-
 .jdsi-login-circle:before {
-  content: "";
+  content: "\ea86";
 }
-
 .jdsi-logo-july:before {
-  content: "";
+  content: "\ea87";
 }
-
 .jdsi-logo-unify:before {
-  content: "";
+  content: "\ea88";
 }
-
 .jdsi-logout-box:before {
-  content: "";
+  content: "\ea89";
 }
-
 .jdsi-logout-circle:before {
-  content: "";
+  content: "\ea8a";
 }
-
 .jdsi-magic:before {
-  content: "";
+  content: "\ea8b";
 }
-
 .jdsi-magnet:before {
-  content: "";
+  content: "\ea8c";
 }
-
 .jdsi-mail:before {
-  content: "";
+  content: "\ea8d";
 }
-
 .jdsi-mail-add:before {
-  content: "";
+  content: "\ea8e";
 }
-
 .jdsi-mail-check:before {
-  content: "";
+  content: "\ea8f";
 }
-
 .jdsi-mail-close:before {
-  content: "";
+  content: "\ea90";
 }
-
 .jdsi-mail-download:before {
-  content: "";
+  content: "\ea91";
 }
-
 .jdsi-mail-forbid:before {
-  content: "";
+  content: "\ea92";
 }
-
 .jdsi-mail-inbox:before {
-  content: "";
+  content: "\ea93";
 }
-
 .jdsi-mail-lock:before {
-  content: "";
+  content: "\ea94";
 }
-
 .jdsi-mail-open:before {
-  content: "";
+  content: "\ea95";
 }
-
 .jdsi-mail-search:before {
-  content: "";
+  content: "\ea96";
 }
-
 .jdsi-mail-send:before {
-  content: "";
+  content: "\ea97";
 }
-
 .jdsi-mail-settings:before {
-  content: "";
+  content: "\ea98";
 }
-
 .jdsi-mail-star:before {
-  content: "";
+  content: "\ea99";
 }
-
 .jdsi-mail-unread:before {
-  content: "";
+  content: "\ea9a";
 }
-
 .jdsi-male:before {
-  content: "";
+  content: "\ea9b";
 }
-
 .jdsi-manage:before {
-  content: "";
+  content: "\ea9c";
 }
-
 .jdsi-map-pin:before {
-  content: "";
+  content: "\ea9d";
 }
-
 .jdsi-map-pin-land:before {
-  content: "";
+  content: "\ea9e";
 }
-
 .jdsi-measurement:before {
-  content: "";
+  content: "\ea9f";
 }
-
 .jdsi-message:before {
-  content: "";
+  content: "\eaa0";
 }
-
 .jdsi-mic:before {
-  content: "";
+  content: "\eaa1";
 }
-
 .jdsi-mic-off:before {
-  content: "";
+  content: "\eaa2";
 }
-
 .jdsi-minus:before {
-  content: "";
+  content: "\eaa3";
 }
-
 .jdsi-money-box:before {
-  content: "";
+  content: "\eaa4";
 }
-
 .jdsi-money-circle:before {
-  content: "";
+  content: "\eaa5";
 }
-
 .jdsi-monitor:before {
-  content: "";
+  content: "\eaa6";
 }
-
 .jdsi-moon:before {
-  content: "";
+  content: "\eaa7";
 }
-
 .jdsi-more-h:before {
-  content: "";
+  content: "\eaa8";
 }
-
 .jdsi-more-v:before {
-  content: "";
+  content: "\eaa9";
 }
-
 .jdsi-mouse:before {
-  content: "";
+  content: "\eaaa";
 }
-
 .jdsi-newspaper:before {
-  content: "";
+  content: "\eaab";
 }
-
 .jdsi-notification:before {
-  content: "";
+  content: "\eaac";
 }
-
 .jdsi-number0:before {
-  content: "";
+  content: "\eaad";
 }
-
 .jdsi-number1:before {
-  content: "";
+  content: "\eaae";
 }
-
 .jdsi-number2:before {
-  content: "";
+  content: "\eaaf";
 }
-
 .jdsi-number3:before {
-  content: "";
+  content: "\eab0";
 }
-
 .jdsi-number4:before {
-  content: "";
+  content: "\eab1";
 }
-
 .jdsi-number5:before {
-  content: "";
+  content: "\eab2";
 }
-
 .jdsi-number6:before {
-  content: "";
+  content: "\eab3";
 }
-
 .jdsi-number7:before {
-  content: "";
+  content: "\eab4";
 }
-
 .jdsi-number8:before {
-  content: "";
+  content: "\eab5";
 }
-
 .jdsi-number9:before {
-  content: "";
+  content: "\eab6";
 }
-
 .jdsi-owl:before {
-  content: "";
+  content: "\eab7";
 }
-
 .jdsi-paintbucket:before {
-  content: "";
+  content: "\eab8";
 }
-
 .jdsi-palette:before {
-  content: "";
+  content: "\eab9";
 }
-
 .jdsi-participants:before {
-  content: "";
+  content: "\eaba";
 }
-
 .jdsi-pdf:before {
-  content: "";
+  content: "\eabb";
 }
-
 .jdsi-percent:before {
-  content: "";
+  content: "\eabc";
 }
-
 .jdsi-phone:before {
-  content: "";
+  content: "\eabd";
 }
-
 .jdsi-pie-chart:before {
-  content: "";
+  content: "\eabe";
 }
-
 .jdsi-pin:before {
-  content: "";
+  content: "\eabf";
 }
-
 .jdsi-plant:before {
-  content: "";
+  content: "\eac0";
 }
-
 .jdsi-plus:before {
-  content: "";
+  content: "\eac1";
 }
-
 .jdsi-power:before {
-  content: "";
+  content: "\eac2";
 }
-
 .jdsi-product:before {
-  content: "";
+  content: "\eac4";
 }
-
 .jdsi-project:before {
-  content: "";
+  content: "\eac5";
 }
-
 .jdsi-question-answer:before {
-  content: "";
+  content: "\ead2";
 }
-
 .jdsi-quill-pen:before {
-  content: "";
+  content: "\ead3";
 }
-
 .jdsi-radar:before {
-  content: "";
+  content: "\ead4";
 }
-
 .jdsi-record:before {
-  content: "";
+  content: "\ead5";
 }
-
 .jdsi-refrash:before {
-  content: "";
+  content: "\ead6";
 }
-
 .jdsi-refresh:before {
-  content: "";
+  content: "\ead7";
 }
-
 .jdsi-reload:before {
-  content: "";
+  content: "\ead8";
 }
-
 .jdsi-reply:before {
-  content: "";
+  content: "\ead9";
 }
-
 .jdsi-reply-all:before {
-  content: "";
+  content: "\eada";
 }
-
 .jdsi-right:before {
-  content: "";
+  content: "\eadb";
 }
-
 .jdsi-right-box:before {
-  content: "";
+  content: "\eadc";
 }
-
 .jdsi-right-circle:before {
-  content: "";
+  content: "\eadd";
 }
-
 .jdsi-right-double:before {
-  content: "";
+  content: "\eade";
 }
-
 .jdsi-right-open:before {
-  content: "";
+  content: "\eadf";
 }
-
 .jdsi-rocket:before {
-  content: "";
+  content: "\eae0";
 }
-
 .jdsi-sad:before {
-  content: "";
+  content: "\eae1";
 }
-
 .jdsi-safe:before {
-  content: "";
+  content: "\eae2";
 }
-
 .jdsi-safe-vault:before {
-  content: "";
+  content: "\eae3";
 }
-
 .jdsi-save:before {
-  content: "";
+  content: "\eae4";
 }
-
 .jdsi-search:before {
-  content: "";
+  content: "\eae5";
 }
-
 .jdsi-secured:before {
-  content: "";
+  content: "\eae6";
 }
-
 .jdsi-security-user:before {
-  content: "";
+  content: "\eb12";
 }
-
 .jdsi-send:before {
-  content: "";
+  content: "\eae7";
 }
-
 .jdsi-sensor:before {
-  content: "";
+  content: "\eae8";
 }
-
 .jdsi-server:before {
-  content: "";
+  content: "\eae9";
 }
-
 .jdsi-settings:before {
-  content: "";
+  content: "\eaea";
 }
-
 .jdsi-share:before {
-  content: "";
+  content: "\eaeb";
 }
-
 .jdsi-share-forward:before {
-  content: "";
+  content: "\eaec";
 }
-
 .jdsi-shield:before {
-  content: "";
+  content: "\ea4b";
 }
-
 .jdsi-shield-star:before {
-  content: "";
+  content: "\ea76";
 }
-
 .jdsi-single-quotes-left:before {
-  content: "";
+  content: "\eaed";
 }
-
 .jdsi-single-quotes-right:before {
-  content: "";
+  content: "\eaee";
 }
-
 .jdsi-small-home:before {
-  content: "";
+  content: "\eaef";
 }
-
 .jdsi-smartphone:before {
-  content: "";
+  content: "\eaf0";
 }
-
 .jdsi-stack:before {
-  content: "";
+  content: "\eaf1";
 }
-
 .jdsi-star:before {
-  content: "";
+  content: "\eaf2";
 }
-
 .jdsi-sun:before {
-  content: "";
+  content: "\eaf3";
 }
-
 .jdsi-swap:before {
-  content: "";
+  content: "\eaf4";
 }
-
 .jdsi-tablet:before {
-  content: "";
+  content: "\eaf5";
 }
-
 .jdsi-team:before {
-  content: "";
+  content: "\eaf6";
 }
-
 .jdsi-thumb-down:before {
-  content: "";
+  content: "\eb0d";
 }
-
 .jdsi-thumb-up:before {
-  content: "";
+  content: "\eb0c";
 }
-
 .jdsi-todo:before {
-  content: "";
+  content: "\eaf7";
 }
-
 .jdsi-toogle:before {
-  content: "";
+  content: "\eaf8";
 }
-
 .jdsi-tools-manage:before {
-  content: "";
+  content: "\eaf9";
 }
-
 .jdsi-trophy:before {
-  content: "";
+  content: "\eafa";
 }
-
 .jdsi-umbrella:before {
-  content: "";
+  content: "\eafb";
 }
-
 .jdsi-upload:before {
-  content: "";
+  content: "\eafc";
 }
-
 .jdsi-user:before {
-  content: "";
+  content: "\eafd";
 }
-
 .jdsi-vidicon:before {
-  content: "";
+  content: "\eafe";
 }
-
 .jdsi-volume-down:before {
-  content: "";
+  content: "\eaff";
 }
-
 .jdsi-volume-mute:before {
-  content: "";
+  content: "\eb00";
 }
-
 .jdsi-volume-up:before {
-  content: "";
+  content: "\eb01";
 }
-
 .jdsi-wallet:before {
-  content: "";
+  content: "\eb02";
 }
-
 .jdsi-webcam:before {
-  content: "";
+  content: "\eb03";
 }
-
 .jdsi-window:before {
-  content: "";
+  content: "\eb04";
 }
-
 .jdsi-woman:before {
-  content: "";
+  content: "\eb10";
 }
-
 .jdsi-word:before {
-  content: "";
+  content: "\eb05";
 }
-
 .jdsi-word-files:before {
-  content: "";
+  content: "\eb06";
 }
-
 .jdsi-worning-triangle:before {
-  content: "";
+  content: "\eb07";
 }
-
 .jdsi-wpexplorer:before {
-  content: "";
+  content: "\eb08";
 }
-
 .jdsi-zoom-in:before {
-  content: "";
+  content: "\eb09";
 }
-
 .jdsi-zoom-out:before {
-  content: "";
+  content: "\eb0a";
 }
-
 .jdsi-task-solid:before {
-  content: "";
+  content: "\eb20";
 }
-
 .jdsi-cleanup-solid:before {
-  content: "";
+  content: "\eb21";
 }
-
 .jdsi-documant-minus-solid:before {
-  content: "";
+  content: "\eb22";
 }
-
 .jdsi-documant-plus-solid:before {
-  content: "";
+  content: "\eb23";
 }
-
 .jdsi-file-damage-solid:before {
-  content: "";
+  content: "\eb24";
 }
-
 .jdsi-order-asc-solid:before {
-  content: "";
+  content: "\eb25";
 }
-
 .jdsi-order-both-solid:before {
-  content: "";
+  content: "\eb26";
 }
-
 .jdsi-order-descending-solid:before {
-  content: "";
+  content: "\eb27";
 }
-
 .jdsi-password-solid:before {
-  content: "";
+  content: "\eb28";
 }
-
 .jdsi-toogle-solid:before {
-  content: "";
+  content: "\eb29";
 }
-
 .jdsi-account-solid:before {
-  content: "";
+  content: "\e900";
 }
-
 .jdsi-add-user-solid:before {
-  content: "";
+  content: "\e901";
 }
-
 .jdsi-alarm-warning-solid:before {
-  content: "";
+  content: "\e902";
 }
-
 .jdsi-announcement-solid:before {
-  content: "";
+  content: "\e903";
 }
-
 .jdsi-arrow-back-solid:before {
-  content: "";
+  content: "\e904";
 }
-
 .jdsi-arrow-begin-solid:before {
-  content: "";
+  content: "\e905";
 }
-
 .jdsi-arrow-down-solid:before {
-  content: "";
+  content: "\e906";
 }
-
 .jdsi-arrow-end-solid:before {
-  content: "";
+  content: "\e907";
 }
-
 .jdsi-arrow-first-solid:before {
-  content: "";
+  content: "\e908";
 }
-
 .jdsi-arrow-last-solid:before {
-  content: "";
+  content: "\e909";
 }
-
 .jdsi-arrow-left-double-solid:before {
-  content: "";
+  content: "\e90a";
 }
-
 .jdsi-arrow-left-long-solid:before {
-  content: "";
+  content: "\e90b";
 }
-
 .jdsi-arrow-left-solid:before {
-  content: "";
+  content: "\e90c";
 }
-
 .jdsi-arrow-right-double-solid:before {
-  content: "";
+  content: "\e90d";
 }
-
 .jdsi-arrow-right-long-solid:before {
-  content: "";
+  content: "\e90e";
 }
-
 .jdsi-arrow-right-solid:before {
-  content: "";
+  content: "\e90f";
 }
-
 .jdsi-arrow-right-top-solid:before {
-  content: "";
+  content: "\e910";
 }
-
 .jdsi-arrow-up-solid:before {
-  content: "";
+  content: "\e911";
 }
-
 .jdsi-article-solid:before {
-  content: "";
+  content: "\e912";
 }
-
 .jdsi-at-solid:before {
-  content: "";
+  content: "\e913";
 }
-
 .jdsi-award-solid:before {
-  content: "";
+  content: "\e914";
 }
-
 .jdsi-bank-card-solid:before {
-  content: "";
+  content: "\e915";
 }
-
 .jdsi-bar-chart-solid:before {
-  content: "";
+  content: "\e916";
 }
-
 .jdsi-barricade-solid:before {
-  content: "";
+  content: "\e917";
 }
-
 .jdsi-blueprint-solid:before {
-  content: "";
+  content: "\e918";
 }
-
 .jdsi-bolt-solid:before {
-  content: "";
+  content: "\e919";
 }
-
 .jdsi-book-open-solid:before {
-  content: "";
+  content: "\e91d";
 }
-
 .jdsi-book-solid:before {
-  content: "";
+  content: "\e91e";
 }
-
 .jdsi-bookmark-minus-solid:before {
-  content: "";
+  content: "\e91a";
 }
-
 .jdsi-bookmark-solid:before {
-  content: "";
+  content: "\e91b";
 }
-
 .jdsi-bookmark-star-solid:before {
-  content: "";
+  content: "\e91c";
 }
-
 .jdsi-briefcase-solid:before {
-  content: "";
+  content: "\e91f";
 }
-
 .jdsi-brush-solid:before {
-  content: "";
+  content: "\e920";
 }
-
 .jdsi-bug-solid:before {
-  content: "";
+  content: "\e921";
 }
-
 .jdsi-building-solid:before {
-  content: "";
+  content: "\e922";
 }
-
 .jdsi-calculate-solid:before {
-  content: "";
+  content: "\e923";
 }
-
 .jdsi-calendar-solid:before {
-  content: "";
+  content: "\e924";
 }
-
 .jdsi-carrot-down-solid:before {
-  content: "";
+  content: "\e925";
 }
-
 .jdsi-carrot-first-solid:before {
-  content: "";
+  content: "\e926";
 }
-
 .jdsi-carrot-last-solid:before {
-  content: "";
+  content: "\e927";
 }
-
 .jdsi-carrot-left-solid:before {
-  content: "";
+  content: "\e928";
 }
-
 .jdsi-carrot-right-solid:before {
-  content: "";
+  content: "\e929";
 }
-
 .jdsi-carrot-up-down-solid:before {
-  content: "";
+  content: "\e92a";
 }
-
 .jdsi-carrot-up-solid:before {
-  content: "";
+  content: "\e92b";
 }
-
 .jdsi-certificate-solid:before {
-  content: "";
+  content: "\e92c";
 }
-
 .jdsi-chart-customize-solid:before {
-  content: "";
+  content: "\e92d";
 }
-
 .jdsi-chat-solid:before {
-  content: "";
+  content: "\e92e";
 }
-
 .jdsi-circle-album-solid:before {
-  content: "";
+  content: "\e92f";
 }
-
 .jdsi-clipboard-solid:before {
-  content: "";
+  content: "\e930";
 }
-
 .jdsi-clise-solid:before {
-  content: "";
+  content: "\e931";
 }
-
 .jdsi-clock-alram-solid:before {
-  content: "";
+  content: "\e932";
 }
-
 .jdsi-clock-solid:before {
-  content: "";
+  content: "\e933";
 }
-
 .jdsi-cloud-check-solid:before {
-  content: "";
+  content: "\e934";
 }
-
 .jdsi-cloud-close-solid:before {
-  content: "";
+  content: "\e935";
 }
-
 .jdsi-cloud-crack-solid:before {
-  content: "";
+  content: "\e936";
 }
-
 .jdsi-cloud-down-solid:before {
-  content: "";
+  content: "\e937";
 }
-
 .jdsi-cloud-off-solid:before {
-  content: "";
+  content: "\e938";
 }
-
 .jdsi-cloud-solid:before {
-  content: "";
+  content: "\e939";
 }
-
 .jdsi-cloud-up-solid:before {
-  content: "";
+  content: "\e93a";
 }
-
 .jdsi-code-solid:before {
-  content: "";
+  content: "\e93b";
 }
-
 .jdsi-collapse-around-solid:before {
-  content: "";
+  content: "\e93c";
 }
-
 .jdsi-community-building-solid:before {
-  content: "";
+  content: "\e93d";
 }
-
 .jdsi-community-solid:before {
-  content: "";
+  content: "\e93e";
 }
-
 .jdsi-company-solid:before {
-  content: "";
+  content: "\e93f";
 }
-
 .jdsi-compass-solid:before {
-  content: "";
+  content: "\e940";
 }
-
 .jdsi-configuration-solid:before {
-  content: "";
+  content: "\e941";
 }
-
 .jdsi-confused-solid:before {
-  content: "";
+  content: "\e942";
 }
-
 .jdsi-contacts-solid:before {
-  content: "";
+  content: "\e943";
 }
-
 .jdsi-copy-solid:before {
-  content: "";
+  content: "\e944";
 }
-
 .jdsi-countdown-solid:before {
-  content: "";
+  content: "\e945";
 }
-
 .jdsi-cross-box-solid:before {
-  content: "";
+  content: "\e946";
 }
-
 .jdsi-cross-circle-solid:before {
-  content: "";
+  content: "\e947";
 }
-
 .jdsi-crown-solid:before {
-  content: "";
+  content: "\e948";
 }
-
 .jdsi-cup-solid:before {
-  content: "";
+  content: "\e949";
 }
-
 .jdsi-currency-boxes-solid:before {
-  content: "";
+  content: "\e94a";
 }
-
 .jdsi-cut-solid:before {
-  content: "";
+  content: "\e94b";
 }
-
 .jdsi-delete-solid:before {
-  content: "";
+  content: "\e94c";
 }
-
 .jdsi-devices-solid:before {
-  content: "";
+  content: "\e94d";
 }
-
 .jdsi-diamond-solid:before {
-  content: "";
+  content: "\e94e";
 }
-
 .jdsi-documant-solid:before {
-  content: "";
+  content: "\e94f";
 }
-
 .jdsi-dollar-solid:before {
-  content: "";
+  content: "\e950";
 }
-
 .jdsi-door-lock-solid:before {
-  content: "";
+  content: "\e951";
 }
-
 .jdsi-download-solid:before {
-  content: "";
+  content: "\e952";
 }
-
 .jdsi-earth-solid:before {
-  content: "";
+  content: "\e953";
 }
-
 .jdsi-edit-solid:before {
-  content: "";
+  content: "\e954";
 }
-
 .jdsi-education-solid:before {
-  content: "";
+  content: "\e955";
 }
-
 .jdsi-error-solid:before {
-  content: "";
+  content: "\e956";
 }
-
 .jdsi-excel-files-solid:before {
-  content: "";
+  content: "\e957";
 }
-
 .jdsi-excel-solid:before {
-  content: "";
+  content: "\e958";
 }
-
 .jdsi-exchange-box-solid:before {
-  content: "";
+  content: "\e959";
 }
-
 .jdsi-expand-around-solid:before {
-  content: "";
+  content: "\e95a";
 }
-
 .jdsi-eye-off-solid:before {
-  content: "";
+  content: "\e95b";
 }
-
 .jdsi-eye-solid:before {
-  content: "";
+  content: "\e95c";
 }
-
 .jdsi-face-mask-solid:before {
-  content: "";
+  content: "\e95d";
 }
-
 .jdsi-fax-solid:before {
-  content: "";
+  content: "\e95e";
 }
-
 .jdsi-female-solid:before {
-  content: "";
+  content: "\e95f";
 }
-
 .jdsi-file-pdf-solid:before {
-  content: "";
+  content: "\e960";
 }
-
 .jdsi-file-shred-solid:before {
-  content: "";
+  content: "\e961";
 }
-
 .jdsi-file-solid:before {
-  content: "";
+  content: "\e962";
 }
-
 .jdsi-file-unknow-solid:before {
-  content: "";
+  content: "\e964";
 }
-
 .jdsi-files-unknow-solid:before {
-  content: "";
+  content: "\e963";
 }
-
 .jdsi-filling-solid:before {
-  content: "";
+  content: "\e965";
 }
-
 .jdsi-filter-solid:before {
-  content: "";
+  content: "\e966";
 }
-
 .jdsi-fire-solid:before {
-  content: "";
+  content: "\e967";
 }
-
 .jdsi-flag-solid:before {
-  content: "";
+  content: "\e968";
 }
-
 .jdsi-flag-wind-solid:before {
-  content: "";
+  content: "\e969";
 }
-
 .jdsi-focus-solid:before {
-  content: "";
+  content: "\e96a";
 }
-
 .jdsi-fold-paper-solid:before {
-  content: "";
+  content: "\e96e";
 }
-
 .jdsi-folder-open-solid:before {
-  content: "";
+  content: "\e96b";
 }
-
 .jdsi-folder-solid:before {
-  content: "";
+  content: "\e96c";
 }
-
 .jdsi-folders-solid:before {
-  content: "";
+  content: "\e96d";
 }
-
 .jdsi-forward-solid:before {
-  content: "";
+  content: "\e96f";
 }
-
 .jdsi-function-solis:before {
-  content: "";
+  content: "\e970";
 }
-
 .jdsi-global-net-solid:before {
-  content: "";
+  content: "\e971";
 }
-
 .jdsi-globe-solid:before {
-  content: "";
+  content: "\e972";
 }
-
 .jdsi-graph-chart-solid:before {
-  content: "";
+  content: "\e973";
 }
-
 .jdsi-grid-solid:before {
-  content: "";
+  content: "\e974";
 }
-
 .jdsi-hamburger-solid:before {
-  content: "";
+  content: "\e975";
 }
-
 .jdsi-handshake-solid:before {
-  content: "";
+  content: "\e9ef";
 }
-
 .jdsi-happy-solid:before {
-  content: "";
+  content: "\e976";
 }
-
 .jdsi-heart-solid:before {
-  content: "";
+  content: "\e977";
 }
-
 .jdsi-help-box-solid:before {
-  content: "";
+  content: "\e978";
 }
-
-.jdsi-help-cercle-solid:before {
-  content: "";
+.jdsi-help-circle-solid:before {
+  content: "\e979";
 }
-
 .jdsi-home-solid:before {
-  content: "";
+  content: "\e97a";
 }
-
 .jdsi-honour-solid:before {
-  content: "";
+  content: "\e97b";
 }
-
 .jdsi-image-place-solid:before {
-  content: "";
+  content: "\e97c";
 }
-
 .jdsi-image-solid:before {
-  content: "";
+  content: "\e97d";
 }
-
 .jdsi-incognito-solid:before {
-  content: "";
+  content: "\eb0e";
 }
-
 .jdsi-industry-solid:before {
-  content: "";
+  content: "\e97e";
 }
-
 .jdsi-key-solid:before {
-  content: "";
+  content: "\e97f";
 }
-
 .jdsi-laptop-solid:before {
-  content: "";
+  content: "\e980";
 }
-
 .jdsi-lifebuoy-solid:before {
-  content: "";
+  content: "\e981";
 }
-
 .jdsi-light-flash-solid:before {
-  content: "";
+  content: "\e982";
 }
-
 .jdsi-light-solid:before {
-  content: "";
+  content: "\e983";
 }
-
 .jdsi-link-solid:before {
-  content: "";
+  content: "\e984";
 }
-
 .jdsi-list-solid:before {
-  content: "";
+  content: "\e985";
 }
-
 .jdsi-lock-solid:before {
-  content: "";
+  content: "\e986";
 }
-
 .jdsi-login-box-solid:before {
-  content: "";
+  content: "\e987";
 }
-
 .jdsi-login-circle-solid:before {
-  content: "";
+  content: "\e988";
 }
-
 .jdsi-logout-box-solid:before {
-  content: "";
+  content: "\e989";
 }
-
 .jdsi-logout-circle-solid:before {
-  content: "";
+  content: "\e98a";
 }
-
 .jdsi-magic-solid:before {
-  content: "";
+  content: "\e98b";
 }
-
 .jdsi-magnet-solid:before {
-  content: "";
+  content: "\e98c";
 }
-
 .jdsi-mail-add-solid:before {
-  content: "";
+  content: "\e98d";
 }
-
 .jdsi-mail-check-solid:before {
-  content: "";
+  content: "\e98e";
 }
-
 .jdsi-mail-close-solid:before {
-  content: "";
+  content: "\e98f";
 }
-
 .jdsi-mail-download-solid:before {
-  content: "";
+  content: "\e990";
 }
-
 .jdsi-mail-forbid-solid:before {
-  content: "";
+  content: "\e991";
 }
-
 .jdsi-mail-inbox-solid:before {
-  content: "";
+  content: "\e992";
 }
-
 .jdsi-mail-lock-solid:before {
-  content: "";
+  content: "\e993";
 }
-
 .jdsi-mail-open-solid:before {
-  content: "";
+  content: "\e994";
 }
-
 .jdsi-mail-search-solid:before {
-  content: "";
+  content: "\e995";
 }
-
 .jdsi-mail-send-solid:before {
-  content: "";
+  content: "\e996";
 }
-
 .jdsi-mail-settings-solid:before {
-  content: "";
+  content: "\e997";
 }
-
 .jdsi-mail-solid:before {
-  content: "";
+  content: "\e998";
 }
-
 .jdsi-mail-star-solid:before {
-  content: "";
+  content: "\e999";
 }
-
 .jdsi-mail-unread-solid:before {
-  content: "";
+  content: "\e99a";
 }
-
 .jdsi-male-solid:before {
-  content: "";
+  content: "\e99b";
 }
-
 .jdsi-manage-solid:before {
-  content: "";
+  content: "\e99c";
 }
-
 .jdsi-map-pin-land-solid:before {
-  content: "";
+  content: "\e99d";
 }
-
 .jdsi-map-pin-solid:before {
-  content: "";
+  content: "\e99e";
 }
-
 .jdsi-measurement-solid:before {
-  content: "";
+  content: "\e99f";
 }
-
 .jdsi-message-solid:before {
-  content: "";
+  content: "\e9a0";
 }
-
 .jdsi-mic-off-solid:before {
-  content: "";
+  content: "\e9a1";
 }
-
 .jdsi-mic-solid:before {
-  content: "";
+  content: "\e9a2";
 }
-
 .jdsi-minus-solid:before {
-  content: "";
+  content: "\e9a3";
 }
-
 .jdsi-money-box-solid:before {
-  content: "";
+  content: "\e9a4";
 }
-
 .jdsi-money-circle-solid:before {
-  content: "";
+  content: "\e9a5";
 }
-
 .jdsi-monitor-solid:before {
-  content: "";
+  content: "\e9a6";
 }
-
 .jdsi-moon-solid:before {
-  content: "";
+  content: "\e9a7";
 }
-
 .jdsi-more-h-solid:before {
-  content: "";
+  content: "\e9a8";
 }
-
 .jdsi-more-v-solid:before {
-  content: "";
+  content: "\e9a9";
 }
-
 .jdsi-mouse-solid:before {
-  content: "";
+  content: "\e9aa";
 }
-
 .jdsi-newspaper-solid:before {
-  content: "";
+  content: "\e9ab";
 }
-
 .jdsi-notification-solid:before {
-  content: "";
+  content: "\e9ac";
 }
-
 .jdsi-owl-solid:before {
-  content: "";
+  content: "\e9ad";
 }
-
 .jdsi-paintbucket-solid:before {
-  content: "";
+  content: "\e9ae";
 }
-
 .jdsi-palette-solid:before {
-  content: "";
+  content: "\e9af";
 }
-
 .jdsi-participants-solid:before {
-  content: "";
+  content: "\e9b0";
 }
-
 .jdsi-pdf-solid:before {
-  content: "";
+  content: "\e9b1";
 }
-
 .jdsi-percent-solid:before {
-  content: "";
+  content: "\e9b2";
 }
-
 .jdsi-phone-solid:before {
-  content: "";
+  content: "\e9b3";
 }
-
 .jdsi-pie-chart-solid:before {
-  content: "";
+  content: "\e9b4";
 }
-
 .jdsi-plant-solid:before {
-  content: "";
+  content: "\e9b5";
 }
-
 .jdsi-plus-solid:before {
-  content: "";
+  content: "\e9b6";
 }
-
 .jdsi-power-solid:before {
-  content: "";
+  content: "\e9b7";
 }
-
 .jdsi-printer-solid:before {
-  content: "";
+  content: "\e9b8";
 }
-
 .jdsi-project-solid:before {
-  content: "";
+  content: "\e9b9";
 }
-
 .jdsi-question-answer-solid:before {
-  content: "";
+  content: "\e9ba";
 }
-
 .jdsi-quill-pen-solid:before {
-  content: "";
+  content: "\e9bb";
 }
-
 .jdsi-radar-solid:before {
-  content: "";
+  content: "\e9bc";
 }
-
 .jdsi-record-solid:before {
-  content: "";
+  content: "\e9bd";
 }
-
 .jdsi-refrash-solid:before {
-  content: "";
+  content: "\e9be";
 }
-
 .jdsi-reload-solid:before {
-  content: "";
+  content: "\e9bf";
 }
-
 .jdsi-reply-all-solid:before {
-  content: "";
+  content: "\e9c0";
 }
-
 .jdsi-reply-solid:before {
-  content: "";
+  content: "\e9c1";
 }
-
 .jdsi-right-box-solid:before {
-  content: "";
+  content: "\e9c2";
 }
-
 .jdsi-right-circle-solid:before {
-  content: "";
+  content: "\e9c3";
 }
-
 .jdsi-right-solid:before {
-  content: "";
+  content: "\e9c4";
 }
-
 .jdsi-rocket-solid:before {
-  content: "";
+  content: "\e9c5";
 }
-
 .jdsi-sad-solid:before {
-  content: "";
+  content: "\e9c6";
 }
-
 .jdsi-safe-solid:before {
-  content: "";
+  content: "\e9c7";
 }
-
 .jdsi-safe-vault-solid:before {
-  content: "";
+  content: "\e9c8";
 }
-
 .jdsi-save-solid:before {
-  content: "";
+  content: "\e9c9";
 }
-
 .jdsi-search-solid:before {
-  content: "";
+  content: "\e9ca";
 }
-
 .jdsi-secured-solid:before {
-  content: "";
+  content: "\e9cb";
 }
-
 .jdsi-security-user-solid:before {
-  content: "";
+  content: "\e9cc";
 }
-
 .jdsi-send-solid:before {
-  content: "";
+  content: "\e9cd";
 }
-
 .jdsi-sensor-solid:before {
-  content: "";
+  content: "\e9ce";
 }
-
 .jdsi-server-solid:before {
-  content: "";
+  content: "\e9cf";
 }
-
 .jdsi-settings-solid:before {
-  content: "";
+  content: "\e9d0";
 }
-
 .jdsi-share-forward-solid:before {
-  content: "";
+  content: "\e9d1";
 }
-
 .jdsi-share-solid:before {
-  content: "";
+  content: "\e9d2";
 }
-
 .jdsi-shield-solid:before {
-  content: "";
+  content: "\ea49";
 }
-
 .jdsi-shield-star-solid:before {
-  content: "";
+  content: "\ea4a";
 }
-
 .jdsi-small-home-solid:before {
-  content: "";
+  content: "\e9d3";
 }
-
 .jdsi-smartphone-solid:before {
-  content: "";
+  content: "\e9d4";
 }
-
 .jdsi-stack-solid:before {
-  content: "";
+  content: "\e9d5";
 }
-
 .jdsi-star-solid:before {
-  content: "";
+  content: "\e9d6";
 }
-
 .jdsi-sun-solid:before {
-  content: "";
+  content: "\e9d7";
 }
-
 .jdsi-swap-solid:before {
-  content: "";
+  content: "\e9d8";
 }
-
 .jdsi-tablet-solid:before {
-  content: "";
+  content: "\e9d9";
 }
-
 .jdsi-team-solid:before {
-  content: "";
+  content: "\e9da";
 }
-
 .jdsi-thumb-down-solid:before {
-  content: "";
+  content: "\e9f1";
 }
-
 .jdsi-thumb-up-solid:before {
-  content: "";
+  content: "\e9f0";
 }
-
 .jdsi-todo-solid:before {
-  content: "";
+  content: "\e9db";
 }
-
 .jdsi-tools-manage-solid:before {
-  content: "";
+  content: "\e9dc";
 }
-
 .jdsi-trophy-solid:before {
-  content: "";
+  content: "\e9dd";
 }
-
 .jdsi-umbrella-solid:before {
-  content: "";
+  content: "\e9de";
 }
-
 .jdsi-upload-solid:before {
-  content: "";
+  content: "\e9df";
 }
-
 .jdsi-user-solid:before {
-  content: "";
+  content: "\e9e0";
 }
-
 .jdsi-vidicon-solid:before {
-  content: "";
+  content: "\e9e1";
 }
-
 .jdsi-volume-down-solid:before {
-  content: "";
+  content: "\e9e2";
 }
-
 .jdsi-volume-mute-solid:before {
-  content: "";
+  content: "\e9e3";
 }
-
 .jdsi-volume-up-solid:before {
-  content: "";
+  content: "\e9e4";
 }
-
 .jdsi-wallet-solid:before {
-  content: "";
+  content: "\e9e5";
 }
-
 .jdsi-webcam-solid:before {
-  content: "";
+  content: "\e9e6";
 }
-
 .jdsi-window-solid:before {
-  content: "";
+  content: "\e9e7";
 }
-
 .jdsi-woman-solid:before {
-  content: "";
+  content: "\e9e8";
 }
-
 .jdsi-word-files-solid:before {
-  content: "";
+  content: "\e9e9";
 }
-
 .jdsi-word-solid:before {
-  content: "";
+  content: "\e9ea";
 }
-
 .jdsi-worning-triangle-solid:before {
-  content: "";
+  content: "\e9eb";
 }
-
 .jdsi-wpexplorer-solid:before {
-  content: "";
+  content: "\e9ec";
 }
-
 .jdsi-zoom-in-solid:before {
-  content: "";
+  content: "\e9ed";
 }
-
 .jdsi-zoom-out-solid:before {
-  content: "";
+  content: "\e9ee";
 }
-
 .jdsi-age-outline:before {
-  content: "";
+  content: "\ea77";
 }
-
 .jdsi-checklist-outline:before {
-  content: "";
+  content: "\ea78";
 }
-
 .jdsi-enroll-outline:before {
-  content: "";
+  content: "\eac6";
 }
-
 .jdsi-finger-tap-outline:before {
-  content: "";
+  content: "\eac7";
 }
-
 .jdsi-hand-pen-outline:before {
-  content: "";
+  content: "\eac8";
 }
-
 .jdsi-handshak-outline:before {
-  content: "";
+  content: "\eac9";
 }
-
 .jdsi-knowledgebase-outline:before {
-  content: "";
+  content: "\eaca";
 }
-
 .jdsi-meter-gauge-outline:before {
-  content: "";
+  content: "\eacb";
 }
-
 .jdsi-pen-outline:before {
-  content: "";
+  content: "\eacc";
 }
-
 .jdsi-quick-enroll-outline:before {
-  content: "";
+  content: "\eacd";
 }
-
 .jdsi-talking-outline:before {
-  content: "";
+  content: "\eace";
 }
-
 .jdsi-target-outline:before {
-  content: "";
+  content: "\eacf";
 }
-
 .jdsi-task-outline:before {
-  content: "";
+  content: "\ead0";
 }
-
 .jdsi-team-outline:before {
-  content: "";
+  content: "\ead1";
 }
-/*# sourceMappingURL=fonts.css.map */
